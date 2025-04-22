@@ -1,0 +1,24 @@
+{
+    "steps": [
+        "step 1: Navigate to */*/*",
+        "step 2: Hover over link dockLayout",
+        "step 3: Click on link dockLayout2 -> Navigate to page 'dock management layout#*/*'",
+        "step 4: Hover over link dock",
+        "step 5: Click on link liveWorksheet -> Navigate to page 'live worksheet management#*/*/*'",
+        "step 6: Select option with input value from select selectedWorkType",
+        "step 7: Click on input action",
+        "step 8: Select option with input value from select doorYard",
+        "step 9: Select option with input value from select employeeDoor",
+        "step 10: Click on input arriveTrailer",
+        "step 11: Select option with input value from select selectedWorkType",
+        "step 12: Click on label door",
+        "step 13: Click on label door",
+        "step 14: Click on label door",
+        "step 15: Click on link deleteAssignWork",
+        "step 16: Select option with input value from select workAssignmentEmployeeId",
+        "step 17: Click on input saveWork",
+        "step 18: Hover over link dockLayout",
+        "step 19: Click on link dockLayout2 -> Navigate to page 'dock management layout#*/*'",
+        "step 20: Take full page screenshot as checkpoint"
+    ]
+}

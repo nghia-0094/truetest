@@ -1,0 +1,8 @@
+{
+    "steps": [
+        "step 1: Navigate to */*/*",
+        "step 2: Hover over link dockLayout",
+        "step 3: Click on link dockLayout2 -> Navigate to page 'dock management layout#*/*'",
+        "step 4: Take full page screenshot as checkpoint"
+    ]
+}

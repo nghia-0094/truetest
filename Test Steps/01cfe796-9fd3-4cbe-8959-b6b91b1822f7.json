@@ -1,0 +1,23 @@
+{
+    "steps": [
+        "step 1: Navigate to */*/*",
+        "step 2: Hover over link dockLayout",
+        "step 3: Click on link dockLayout2 -> Navigate to page 'dock management layout#*/*'",
+        "step 4: Click on link dockManagement (closeToBos)",
+        "step 5: Click on input trailerUtilization",
+        "step 6: Enter input value in input trailerUtilization",
+        "step 7: Click on input sendToYard (sendToYardAndClose)",
+        "step 8: Click on button confirmationActions (continue)",
+        "step 9: Click on input actualTrailerUtilization",
+        "step 10: Enter input value in input actualTrailerUtilization",
+        "step 11: Click on input submitTrailerUtilization",
+        "step 12: Click on label removeFromDoor",
+        "step 13: Click on span removeFromDoor",
+        "step 14: Click on input closeTrailerAtDoor",
+        "step 15: Click on input createDockMove",
+        "step 16: Click on input requestReplacement",
+        "step 17: Click on button confirmationActions (confirm)",
+        "step 18: Click on button confirmationActions (ok) -> Navigate to page ''",
+        "step 19: Take full page screenshot as checkpoint"
+    ]
+}

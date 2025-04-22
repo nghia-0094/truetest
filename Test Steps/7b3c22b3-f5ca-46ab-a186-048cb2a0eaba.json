@@ -1,0 +1,20 @@
+{
+    "steps": [
+        "step 1: Navigate to */*",
+        "step 2: Click on input refresh",
+        "step 3: Click on input refresh -> Navigate to page 'report#*/Reports/*'",
+        "step 4: Enter input value in input trailerNumber",
+        "step 5: Click on input search",
+        "step 6: Enter input value in input proNumber",
+        "step 7: Click on input proSearch",
+        "step 8: Click on div searchProForm",
+        "step 9: Enter input value in input proNumber",
+        "step 10: Click on input proSearch -> Navigate to page 'live worksheet management#*/*/*'",
+        "step 11: Enter input value in input searchString",
+        "step 12: Click on input searchString",
+        "step 13: Select option with input value from select layoutSelectedTerminal",
+        "step 14: Select option with input value from select searchOption",
+        "step 15: Click on input searchString -> Navigate to page ''",
+        "step 16: Take full page screenshot as checkpoint"
+    ]
+}

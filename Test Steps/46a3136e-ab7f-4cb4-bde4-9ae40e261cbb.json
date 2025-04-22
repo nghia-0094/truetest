@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to */*/*",
+        "step 2: Hover over link pd",
+        "step 3: Click on link pdcheckIn -> Navigate to page 'pnd morning check in#*/*/*'",
+        "step 4: Hover over link reports",
+        "step 5: Click on link proMovement -> Navigate to page 'report#*/Reports/*'",
+        "step 6: Click on div object -> Navigate to page 'pnd morning check in#*/*/*'",
+        "step 7: Click on button checkIn",
+        "step 8: Click on button submit",
+        "step 9: Click on button ok",
+        "step 10: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "steps": [
+        "step 1: Navigate to */*/*",
+        "step 2: Hover over link dockLayout",
+        "step 3: Click on link dockLayout2 -> Navigate to page 'dock management layout#*/*'",
+        "step 4: Click on link dockManagement (doorNumber)",
+        "step 5: Click on link trailerSummary -> Navigate to page 'shipment movement#*/*/*'",
+        "step 6: Click on button ok",
+        "step 7: Click on input dockIt",
+        "step 8: Click on input buffer",
+        "step 9: Click on input enter -> Navigate to page 'generic confirmation#*/*/MoveConfirmation'",
+        "step 10: Click on input ok -> Navigate to page 'dock management layout#*/*'",
+        "step 11: Click on link close",
+        "step 12: Click on link closeActions (close2)",
+        "step 13: Click on input refresh -> Navigate to page ''",
+        "step 14: Take full page screenshot as checkpoint"
+    ]
+}

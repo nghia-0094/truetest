@@ -1,0 +1,31 @@
+{
+    "steps": [
+        "step 1: Navigate to pre-billing",
+        "step 2: Click on input terminal",
+        "step 3: Enter input value in input terminal",
+        "step 4: Click on link man",
+        "step 5: Click on input driverList",
+        "step 6: Enter input value in input driverList",
+        "step 7: Click on link name",
+        "step 8: Click on input trailer",
+        "step 9: Enter input value in input trailer",
+        "step 10: Click on input door",
+        "step 11: Click on input door",
+        "step 12: Enter input value in input door",
+        "step 13: Click on input checkIn",
+        "step 14: Click on input checkIn",
+        "step 15: Enter input value in input checkIn",
+        "step 16: Press key Enter on input checkIn",
+        "step 17: Click on input checkIn",
+        "step 18: Enter input value in input checkIn",
+        "step 19: Press key Enter on input checkIn",
+        "step 20: Click on input checkIn",
+        "step 21: Enter input value in input checkIn",
+        "step 22: Press key Enter on input checkIn",
+        "step 23: Click on input checkIn",
+        "step 24: Enter input value in input checkIn",
+        "step 25: Press key Enter on input checkIn",
+        "step 26: Click on button sendToDock",
+        "step 27: Take full page screenshot as checkpoint"
+    ]
+}
