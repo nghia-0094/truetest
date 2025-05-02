@@ -67,4 +67,11 @@
         <masked>false</masked>
         <name>input_zipCode</name>
     </variable>
+    <variable>
+        <defaultValue>'iPhone 15 Plus'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>58516bde-0563-4054-960e-ccbf4388982e</id>
+        <masked>false</masked>
+        <name>label_productDetails_internalText</name>
+    </variable>
 </TestCaseEntity>

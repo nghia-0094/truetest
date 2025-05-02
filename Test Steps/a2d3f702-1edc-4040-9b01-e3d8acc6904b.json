@@ -2,7 +2,7 @@
     "steps": [
         "step 1: Navigate to /",
         "step 2: Click on button addToCart",
-        "step 3: Click on label productName",
+        "step 3: Click on label productDetails (productName)",
         "step 4: Click on button buy",
         "step 5: Click on span goToCart -> Navigate to page '/cart'",
         "step 6: Click on button increaseQuantity",

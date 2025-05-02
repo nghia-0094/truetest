@@ -1,7 +1,7 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
 1,Complete Purchase with Detailed Checkout Process,"Navigate to the home page, add a product to the cart, and proceed through the checkout steps. Fill in personal and shipping information, complete payment, and verify the thank you page.","Step 1: Navigate to /
 Step 2: Click on button addToCart
-Step 3: Click on label productName
+Step 3: Click on label productDetails (productName)
 Step 4: Click on button buy
 Step 5: Click on span goToCart -> Navigate to page '/cart'
 Step 6: Click on button increaseQuantity
@@ -26,4 +26,34 @@ Step 24: Enter input value in input phone
 Step 25: Click on button continueToPayment -> Navigate to page '/checkout/payment'
 Step 26: Click on button completeOrder -> Navigate to page '/thank-you/*'
 Step 27: Take full page screenshot as checkpoint
-",High,NEW
+",High,STABLE
+2,Complete Purchase and Verify Home Page Functionality,"Navigate to the home page, add a product to the cart, view product details, and complete the purchase. Verify that the home page loads correctly after the order.","Step 1: Navigate to /
+Step 2: Click on button addToCart
+Step 3: Click on label productDetails (storage128Gb)
+Step 4: Click on label productDetails (colorBlue)
+Step 5: Click on button buy
+Step 6: Click on link placeOrder
+Step 7: Fill in shipping details and complete the order process
+	- Step 1: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+	- Step 2: Click on input email
+	- Step 3: Enter input value in input email
+	- Step 4: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'
+	- Step 5: Click on input firstName
+	- Step 6: Enter input value in input firstName
+	- Step 7: Click on input lastName
+	- Step 8: Enter input value in input lastName
+	- Step 9: Click on input address
+	- Step 10: Enter input value in input address
+	- Step 11: Click on input zipCode
+	- Step 12: Enter input value in input zipCode
+	- Step 13: Click on input city
+	- Step 14: Enter input value in input city
+	- Step 15: Click on input state
+	- Step 16: Enter input value in input state
+	- Step 17: Click on input phone
+	- Step 18: Enter input value in input phone
+	- Step 19: Click on button continueToPayment -> Navigate to page '/checkout/payment'
+	- Step 20: Click on button completeOrder
+Step 8: Click on link kCellphoneShop -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",Trivial,NEW
