@@ -1,0 +1,29 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Complete Purchase with Detailed Checkout Process,"Navigate to the home page, add a product to the cart, and proceed through the checkout steps. Fill in personal and shipping information, complete payment, and verify the thank you page.","Step 1: Navigate to /
+Step 2: Click on button addToCart
+Step 3: Click on label productName
+Step 4: Click on button buy
+Step 5: Click on span goToCart -> Navigate to page '/cart'
+Step 6: Click on button increaseQuantity
+Step 7: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 8: Click on input email
+Step 9: Enter input value in input email
+Step 10: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'
+Step 11: Click on input firstName
+Step 12: Enter input value in input firstName
+Step 13: Click on input lastName
+Step 14: Enter input value in input lastName
+Step 15: Click on input address
+Step 16: Enter input value in input address
+Step 17: Click on input zipCode
+Step 18: Enter input value in input zipCode
+Step 19: Click on input city
+Step 20: Enter input value in input city
+Step 21: Click on input state
+Step 22: Enter input value in input state
+Step 23: Click on input phone
+Step 24: Enter input value in input phone
+Step 25: Click on button continueToPayment -> Navigate to page '/checkout/payment'
+Step 26: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 27: Take full page screenshot as checkpoint
+",High,NEW
