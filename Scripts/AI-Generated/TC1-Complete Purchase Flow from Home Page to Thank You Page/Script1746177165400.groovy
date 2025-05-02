@@ -26,14 +26,13 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/button_addToCart'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 2-Click on button addToCart.png')
 
-"Step 3: Click on label productDetails (productName)"
+"Step 3: Click on label productName"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_home/label_productDetails"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_home/label_productDetails', ['label_productDetails_internalText': label_productDetails_internalText]))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/label_productName'))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 3-Click on label productDetails productName.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 3-Click on label productName.png')
 
 "Step 4: Click on button buy"
 
@@ -221,7 +220,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 26-Click on button completeOrde
 
 "Step 27: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Complete Purchase with Detailed Checkout Process_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Complete Purchase Flow from Home Page to Thank You Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
