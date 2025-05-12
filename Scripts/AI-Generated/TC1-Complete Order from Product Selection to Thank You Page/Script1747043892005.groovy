@@ -218,9 +218,17 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_payment/button_co
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 26-Click on button completeOrder - Navigate to page thank-you.png')
 
-"Step 27: Take full page screenshot as checkpoint"
+"Step 27: Click on div thankYouMessage -> Navigate to page ''"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Complete Purchase Flow from Home Page to Thank You Page_visual_checkpoint')
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/thank-you/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_thank_you/div_thankYouMessage'))
+
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 27-Click on div thankYouMessage - Navigate to page .png')
+
+"Step 28: Take full page screenshot as checkpoint"
+
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Complete Order from Product Selection to Thank You Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
