@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>8df9a522-c5da-41f6-93c2-dd75bebe3e20</id>
+        </flow>
+    </customField>
+    <description>Navigate to the application page, access a recent copy, check notifications, and verify the home page.</description>
+    <name>TC54-Access Recent Copy and Verify Notifications</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>d36be9a5-1c2d-4e09-9146-c6ec6b36e1a7</testCaseGuid>
+    <variable>
+        <defaultValue>'NFS'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>a8d8ced1-a4e7-4c0b-9337-e802dae2e8ce</id>
+        <masked>false</masked>
+        <name>EGApp_LaunchPoint</name>
+    </variable>
+    <variable>
+        <defaultValue>'toastid2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3d5c309d-e18c-4694-ba6e-2cfcce04e755</id>
+        <masked>false</masked>
+        <name>div_messageNotifications_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'toastid1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4b1bbb16-4c23-433a-bb07-a69050994a6b</id>
+        <masked>false</masked>
+        <name>link_closeActions_internalLabel</name>
+    </variable>
+</TestCaseEntity>

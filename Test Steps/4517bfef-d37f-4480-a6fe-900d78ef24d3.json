@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to /EGApp/NewApplication with params (acordType)",
+        "step 2: Select option with input value from select jurisdiction3",
+        "step 3: Select option with input value from select productType3",
+        "step 4: Select option with input value from select carrier4",
+        "step 5: Select option with input value from select productType3",
+        "step 6: Select option with input value from select carrier28",
+        "step 7: Select option with input value from select productType3",
+        "step 8: Select option with input value from select carrier4",
+        "step 9: Click on link home -> Navigate to page '/EGApp'",
+        "step 10: Take full page screenshot as checkpoint"
+    ]
+}

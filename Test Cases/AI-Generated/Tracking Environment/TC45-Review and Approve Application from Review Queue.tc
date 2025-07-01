@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>d87ff190-619c-45c7-9438-21972a967c8a</id>
+        </flow>
+    </customField>
+    <description>Navigate to the review queue, filter by date, select an application, and approve it. Verify that the home page is displayed after approval.</description>
+    <name>TC45-Review and Approve Application from Review Queue</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>bd2c6135-a091-4966-8693-d64fbad97958</testCaseGuid>
+    <variable>
+        <defaultValue>'IT'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>fc4f83ee-53ec-4677-8ef1-638c6ca3e280</id>
+        <masked>false</masked>
+        <name>EGApp_LaunchPoint</name>
+    </variable>
+    <variable>
+        <defaultValue>'4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3ef550c8-fe12-4aaa-9bc9-8796702973a5</id>
+        <masked>false</masked>
+        <name>button_applicationApproval_nth</name>
+    </variable>
+    <variable>
+        <defaultValue>'4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>14666a51-19f8-43c6-bcf0-8119a152da92</id>
+        <masked>false</masked>
+        <name>input_reviewApplicationButtons_nth</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>029a8043-42a8-49b2-857b-e90ecdc8461f</id>
+        <masked>false</masked>
+        <name>select_filterByDate</name>
+    </variable>
+</TestCaseEntity>

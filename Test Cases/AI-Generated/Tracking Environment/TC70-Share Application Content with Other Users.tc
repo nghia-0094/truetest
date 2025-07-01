@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>7aef0831-cbb7-42dc-9b6b-ea4d3bbc6437</id>
+        </flow>
+    </customField>
+    <description>Access sharing options, input email details, and verify the sharing of application content successfully.</description>
+    <name>TC70-Share Application Content with Other Users</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>61a573aa-385f-464a-9290-347740980415</testCaseGuid>
+    <variable>
+        <defaultValue>'5ecb388b-a177-4ae2-86d2-633bc7baac0f'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>cc4f5670-f207-4f41-bf72-5d9735574806</id>
+        <masked>false</masked>
+        <name>EditWizardApplication_AppGuid</name>
+    </variable>
+    <variable>
+        <defaultValue>'True'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>76b57461-e366-4b03-972d-87f8839d641e</id>
+        <masked>false</masked>
+        <name>EditWizardApplication_RecordMetric</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>30a6f146-18a4-437b-895b-c84ab6634b9c</id>
+        <masked>false</masked>
+        <name>input_nameEmail</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>ba928906-0d44-43cf-b702-ee804f5406fd</id>
+        <masked>false</masked>
+        <name>input_nameEmail_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>e0f18e3b-d8b1-4376-9f65-167c2936626a</id>
+        <masked>false</masked>
+        <name>input_nameEmail_2</name>
+    </variable>
+</TestCaseEntity>

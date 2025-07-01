@@ -1,0 +1,21 @@
+{
+    "steps": [
+        "step 1: Navigate to /EGApp/EditWizardApplication with params (AppGuid, RecordMetric)",
+        "step 2: Access other actions and share content",
+        "step 3: Click on input nameEmail",
+        "step 4: Click on link search",
+        "step 5: Click on input nameEmail",
+        "step 6: Enter input value in input nameEmail",
+        "step 7: Click on link search",
+        "step 8: Click on link clear",
+        "step 9: Click on input nameEmail",
+        "step 10: Enter input value in input nameEmail",
+        "step 11: Click on div dialogAppShare",
+        "step 12: Click on link search",
+        "step 13: Click on input nameEmail",
+        "step 14: Enter input value in input nameEmail",
+        "step 15: Click on div dialogAppShare2",
+        "step 16: Click on button dialogAction3 -> Navigate to page ''",
+        "step 17: Take full page screenshot as checkpoint"
+    ]
+}

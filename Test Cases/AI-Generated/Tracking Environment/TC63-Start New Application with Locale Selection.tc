@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>989c781f-7753-488a-9210-b09c64ce764f</id>
+        </flow>
+    </customField>
+    <description>Navigate to the application page, start a new application, select jurisdiction and locale, and verify the home page.</description>
+    <name>TC63-Start New Application with Locale Selection</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>c7456200-f7d2-428e-a424-7df1216896e8</testCaseGuid>
+    <variable>
+        <defaultValue>'IT'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>db7124ce-2c29-44bc-892c-5187073e607c</id>
+        <masked>false</masked>
+        <name>EGApp_LaunchPoint</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>d18a060a-ad0f-425b-aa2a-26a611b027e7</id>
+        <masked>false</masked>
+        <name>select_jurisdiction7</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>7c748e12-adbb-43c2-a301-9b5902bf7918</id>
+        <masked>false</masked>
+        <name>select_locale</name>
+    </variable>
+</TestCaseEntity>

@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to /EGApp with params (LaunchPoint)",
+        "step 2: Click on div recentCopy",
+        "step 3: Click on link copyOfTestAura",
+        "step 4: Click on link closeActions (close)",
+        "step 5: Click on div messageNotifications (toastMessage)",
+        "step 6: Click on div userEmailNotification -> Navigate to page ''",
+        "step 7: Take full page screenshot as checkpoint"
+    ]
+}

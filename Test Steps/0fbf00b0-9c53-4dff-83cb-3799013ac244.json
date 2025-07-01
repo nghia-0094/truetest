@@ -1,0 +1,12 @@
+{
+    "steps": [
+        "step 1: Navigate to /EGApp",
+        "step 2: Click on link startNewApplication2 -> Navigate to page '/EGApp/NewApplication'",
+        "step 3: Click on link fixedIndexedAnnuity3",
+        "step 4: Click on link create7",
+        "step 5: Click on button create",
+        "step 6: Toggle visibility of hidden forms multiple times in the qualified section",
+        "step 7: Select option with input value from select planType -> Navigate to page ''",
+        "step 8: Take full page screenshot as checkpoint"
+    ]
+}

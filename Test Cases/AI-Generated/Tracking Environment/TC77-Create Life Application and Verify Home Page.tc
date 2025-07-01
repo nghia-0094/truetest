@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>84d5da6f-2001-4d4a-b859-684f38c9d079</id>
+        </flow>
+    </customField>
+    <description>Navigate to create a life application, enter required details, and verify that the home page is displayed correctly.</description>
+    <name>TC77-Create Life Application and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>d5d4a45b-e544-4a4c-9eb0-3ce2d28023f9</testCaseGuid>
+    <variable>
+        <defaultValue>'{{url}}'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>ea83739e-dc65-4116-8818-1777e551b92d</id>
+        <masked>false</masked>
+        <name>EGApp_LaunchPoint</name>
+    </variable>
+    <variable>
+        <defaultValue>'Data Files/AI-Generated/Tracking Environment/Common/enterInPersonDetailsAndLicenseInfo-test-data'</defaultValue>
+        <description>Common function data file id</description>
+        <id>2c195097-6336-443b-b563-9004dd63363e</id>
+        <masked>false</masked>
+        <name>data_path_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Common function data row index</description>
+        <id>2c8adbc8-2197-4bf2-90cc-39e842c407ed</id>
+        <masked>false</masked>
+        <name>index_0</name>
+    </variable>
+</TestCaseEntity>

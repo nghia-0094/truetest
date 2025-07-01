@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>74a06687-c721-4cb9-b382-cb06da3ef947</id>
+        </flow>
+    </customField>
+    <description>Navigate to the edit wizard application, enter data, and attempt to continue. Choose to go back to the home page and verify successful navigation.</description>
+    <name>TC41-Verify Navigation and Data Entry in Edit Wizard Application</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>716eec03-9e69-4a88-bfc1-e298f693b3b6</testCaseGuid>
+    <variable>
+        <defaultValue>'fffc9aaf-123a-4c15-a7b7-e961a4e1e94d'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>654e561a-e719-4a28-a096-58cfd265069d</id>
+        <masked>false</masked>
+        <name>EditWizardApplication_AppGuid</name>
+    </variable>
+    <variable>
+        <defaultValue>'IT'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>5be86c3c-5e00-46f5-afc8-265d5e12d4ef</id>
+        <masked>false</masked>
+        <name>EditWizardApplication_LaunchPoint</name>
+    </variable>
+    <variable>
+        <defaultValue>'True'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>750d35c8-94b8-474f-a33c-5b175b8a624a</id>
+        <masked>false</masked>
+        <name>EditWizardApplication_RecordMetric</name>
+    </variable>
+</TestCaseEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>1147f113-9f1e-4923-a226-13545e3d9d0f</id>
+        </flow>
+    </customField>
+    <description>Navigate to the application page, start a new application, select jurisdiction and carrier, and verify navigation to the home page.</description>
+    <name>TC38-Start New Application and Verify Home Page Navigation</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>f7a55e4c-2d0f-47de-ad94-9ae789cac6db</testCaseGuid>
+    <variable>
+        <defaultValue>'NFS'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>2ebce0e3-7e76-48d7-9b78-0f6ec1d03a55</id>
+        <masked>false</masked>
+        <name>EGApp_LaunchPoint</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>a7594af1-d149-4d9f-b5e5-ed9ba36df33a</id>
+        <masked>false</masked>
+        <name>select_carrier11</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>e45c5045-1eaf-4183-b7ed-02ffa41eae7c</id>
+        <masked>false</masked>
+        <name>select_carrier11_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>f0e8059f-b3b0-4594-9b6b-2a41b5c35390</id>
+        <masked>false</masked>
+        <name>select_carrier11_2</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>8741a699-1a6b-4d1b-a294-8908d58f458c</id>
+        <masked>false</masked>
+        <name>select_carrier11_3</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>8f23bf8a-2b27-452d-9098-4c315bb2a98a</id>
+        <masked>false</masked>
+        <name>select_carrier11_4</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>1ac0a267-38c1-475d-b6b8-553ca8eb83aa</id>
+        <masked>false</masked>
+        <name>select_carrier11_5</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>d254f0c1-15c8-47a2-a1ca-f4a3c562b575</id>
+        <masked>false</masked>
+        <name>select_carrier11_6</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>b7c97a52-2d99-475f-86c1-77d79402cb2e</id>
+        <masked>false</masked>
+        <name>select_carrier11_7</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>64a55055-76d5-4dc8-8915-5816e328d7cd</id>
+        <masked>false</masked>
+        <name>select_jurisdiction4</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>93132db6-b076-4f6f-8f8a-93e09032e39f</id>
+        <masked>false</masked>
+        <name>select_jurisdiction4_1</name>
+    </variable>
+</TestCaseEntity>

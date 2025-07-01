@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>e5e9c5ac-dcf2-4d1c-8a66-d57d5f3f8b18</id>
+        </flow>
+    </customField>
+    <description>Navigate to Egapp, perform advanced searches for user activities, manage email requests, and verify the application page.</description>
+    <name>TC30-Perform Advanced Search and Manage User Activities in Egapp</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>b10b328e-614e-451f-a996-c2c653b0e263</testCaseGuid>
+    <variable>
+        <defaultValue>'IT'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>8c7884d3-3e56-4d9a-afda-8b21af6b56e1</id>
+        <masked>false</masked>
+        <name>EGApp_LaunchPoint</name>
+    </variable>
+    <variable>
+        <defaultValue>'Owner'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>7e5fe465-bbfc-4fa2-81db-13614fea507f</id>
+        <masked>false</masked>
+        <name>link_agentOwnerDetails_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>275e3ba7-8dd3-4911-85ea-06215370b168</id>
+        <masked>false</masked>
+        <name>select_statusType</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>ac3f8b08-f6eb-41c5-9b27-2871be9edb68</id>
+        <masked>false</masked>
+        <name>select_userActivitiesFilter</name>
+    </variable>
+</TestCaseEntity>

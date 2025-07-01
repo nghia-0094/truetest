@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /EGApp with params (TransactionType)",
+        "step 2: Click on link applicationManagement (object) -> Navigate to page '/EGApp/EditWizardApplication'",
+        "step 3: Click on button next2",
+        "step 4: Click on input productName",
+        "step 5: Click on input productName",
+        "step 6: Click on div mainContent",
+        "step 7: Click on div mainContent",
+        "step 8: Click on div mainContent -> Navigate to page ''",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "steps": [
+        "step 1: Navigate to /EGApp with params (LaunchPoint)",
+        "step 2: Click on link startNewApplication2",
+        "step 3: Select option with input value from select jurisdiction4",
+        "step 4: Select option with input value from select carrier8",
+        "step 5: Select option with input value from select jurisdiction4",
+        "step 6: Select option with input value from select carrier5",
+        "step 7: Select option with input value from select carrier5",
+        "step 8: Select option with input value from select jurisdiction4",
+        "step 9: Click on div jurisdictionSelection4",
+        "step 10: Select option with input value from select carrier3",
+        "step 11: Click on link annuityOptions (fixedAnnuityNewYorkLife)",
+        "step 12: Select option with input value from select residentJurisdiction2",
+        "step 13: Click on div requiredForms",
+        "step 14: Click on div newApplicationOptions (newApplication8)",
+        "step 15: Click on link cancel2 -> Navigate to page ''",
+        "step 16: Take full page screenshot as checkpoint"
+    ]
+}

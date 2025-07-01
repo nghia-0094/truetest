@@ -1,0 +1,29 @@
+{
+    "steps": [
+        "step 1: Navigate to /EGApp with params (LaunchPoint)",
+        "step 2: Click on link allActivities5",
+        "step 3: Click on button advancedSearch",
+        "step 4: Click on input radioAll",
+        "step 5: Select option with input value from select statusType",
+        "step 6: Click on button search",
+        "step 7: Click on button advancedSearch",
+        "step 8: Select option with input value from select userActivitiesFilter",
+        "step 9: Click on link all",
+        "step 10: Click on button search",
+        "step 11: Click on button allUsers",
+        "step 12: Click on link view2",
+        "step 13: Click on link close3",
+        "step 14: Click on div toastMessage2",
+        "step 15: Click on button continue",
+        "step 16: Click on button reSign",
+        "step 17: Click on button ok",
+        "step 18: Click on link agentOwnerDetails (owner)",
+        "step 19: Click on link signNow",
+        "step 20: Click on link sendEmailRequest",
+        "step 21: Click on input yourEmail",
+        "step 22: Click on input signerEmail",
+        "step 23: Click on div sendEmailRequest",
+        "step 24: Click on link cancel",
+        "step 25: Take full page screenshot as checkpoint"
+    ]
+}

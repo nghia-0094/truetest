@@ -1,0 +1,23 @@
+{
+    "steps": [
+        "step 1: Navigate to /EGApp/EditApplication with params (AppGuid)",
+        "step 2: Click on button okay2",
+        "step 3: Click on link nextPage18",
+        "step 4: Click on canvas status",
+        "step 5: Click on link openPageFormList11",
+        "step 6: Click on link dynamicObject (page126)",
+        "step 7: Click on div object163",
+        "step 8: Click on link otherActions5",
+        "step 9: Click on link documentManagement (documents8)",
+        "step 10: Click on button close2",
+        "step 11: Click on input cAo3",
+        "step 12: Enter input value in input cAo3",
+        "step 13: Click on div object164",
+        "step 14: Click on div object165",
+        "step 15: Click on div object166",
+        "step 16: Click on link otherActions5",
+        "step 17: Click on link documentManagement (history2)",
+        "step 18: Click on button close3 -> Navigate to page ''",
+        "step 19: Take full page screenshot as checkpoint"
+    ]
+}

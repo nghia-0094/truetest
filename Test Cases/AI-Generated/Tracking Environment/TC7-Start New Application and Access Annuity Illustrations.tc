@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>fd882ce6-b80e-4abb-a867-6ac4299add6b</id>
+        </flow>
+    </customField>
+    <description>Begin a new application, select jurisdiction, and access annuity illustrations while verifying the home page.</description>
+    <name>TC7-Start New Application and Access Annuity Illustrations</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>0363117d-c3dc-475c-a18b-01de88d91674</testCaseGuid>
+    <variable>
+        <defaultValue>'Fixed Indexed Annuity Revol One Enduris 6 FIA\\u2122 Testing'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>ae0a20d4-6ccd-4212-ad0e-fb9268bb6b4c</id>
+        <masked>false</masked>
+        <name>link_annuityIllustrations_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>a0f20028-2505-4a37-bb9e-5b68c812d952</id>
+        <masked>false</masked>
+        <name>select_jurisdiction3</name>
+    </variable>
+</TestCaseEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>29055f8b-20d9-41d3-8a5a-8ce174d9429e</id>
+        </flow>
+    </customField>
+    <description>Navigate to the application, click on the About link multiple times, and verify that the home page is displayed correctly.</description>
+    <name>TC110-Navigate to About Page and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>552e4ea8-8a7a-4356-bb65-c8df7016b43a</testCaseGuid>
+    <variable>
+        <defaultValue>'SIC'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>657ab82e-4683-4f5e-a2ae-109471e72e09</id>
+        <masked>false</masked>
+        <name>EGApp_LaunchPoint</name>
+    </variable>
+    <variable>
+        <defaultValue>'About'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>9621e695-6157-4d59-9317-c74ee8190401</id>
+        <masked>false</masked>
+        <name>button_navigation_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'About'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>f856717a-1b10-4121-b32e-1ed291956f20</id>
+        <masked>false</masked>
+        <name>button_navigation_internalLabel_1</name>
+    </variable>
+</TestCaseEntity>

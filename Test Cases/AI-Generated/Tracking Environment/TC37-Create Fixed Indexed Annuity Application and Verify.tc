@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>064f34a3-e356-4f1c-9934-0c28b17f3baf</id>
+        </flow>
+    </customField>
+    <description>Navigate to the application page, create a fixed indexed annuity application, input email, select ownership, and verify the home page.</description>
+    <name>TC37-Create Fixed Indexed Annuity Application and Verify</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>f5f70216-d40b-4a92-a04f-d779fee3f496</testCaseGuid>
+    <variable>
+        <defaultValue>'EQT'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>d098f4ad-51f3-4fa8-8835-8f2fef7900fb</id>
+        <masked>false</masked>
+        <name>EGApp_LaunchPoint</name>
+    </variable>
+    <variable>
+        <defaultValue>'Yes'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>67f533fb-d18e-4871-9507-19dbda46bf59</id>
+        <masked>false</masked>
+        <name>div_dynamicObject_divTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'0'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b6849714-0144-4e34-a92c-0736be9cf6b4</id>
+        <masked>false</masked>
+        <name>div_dynamicObject_nth</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>272de3d1-a3e1-48fe-becb-7355fe140a94</id>
+        <masked>false</masked>
+        <name>input_emailAddress</name>
+    </variable>
+</TestCaseEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>fda4b420-6774-4fbc-8f91-726748cd14e9</id>
+        </flow>
+    </customField>
+    <description>Navigate to the edit wizard, skip to content, close the wizard, perform other actions, and verify the home page.</description>
+    <name>TC53-Skip Content and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>b70b68a1-ccd4-4542-a327-ee0d9d9af77a</testCaseGuid>
+    <variable>
+        <defaultValue>'39f2e02b-c9b0-4028-96e9-2a136493f98b'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>a9d2d7cd-4fd9-484d-816b-10336bc0206d</id>
+        <masked>false</masked>
+        <name>EditWizardApplication_AppGuid</name>
+    </variable>
+    <variable>
+        <defaultValue>'NFS'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>dc7ba68e-7267-46ec-89bd-4dcc8c2f5a9d</id>
+        <masked>false</masked>
+        <name>EditWizardApplication_LaunchPoint</name>
+    </variable>
+    <variable>
+        <defaultValue>'True'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>2ce0d4d3-6d35-4b12-beda-f529b04f379d</id>
+        <masked>false</masked>
+        <name>EditWizardApplication_RecordMetric</name>
+    </variable>
+</TestCaseEntity>

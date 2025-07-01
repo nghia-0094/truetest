@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>4517bfef-d37f-4480-a6fe-900d78ef24d3</id>
+        </flow>
+    </customField>
+    <description>Navigate to the new application page, select jurisdiction and product types, and verify the application page.</description>
+    <name>TC15-Select Product and Verify Application Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>8af37db7-7642-45e5-bb2a-412025573a73</testCaseGuid>
+    <variable>
+        <defaultValue>'103'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>3dcc9789-2ca3-4cf6-b0ca-fac23cecb9c3</id>
+        <masked>false</masked>
+        <name>NewApplication_acordType</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>4802747e-dbd2-4122-9f52-8a0ec56c37e8</id>
+        <masked>false</masked>
+        <name>select_carrier28</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>d7783b58-35f7-48a2-9dab-681fae493a53</id>
+        <masked>false</masked>
+        <name>select_carrier4</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>cbe1620c-2300-455a-a6ff-4583f594b57b</id>
+        <masked>false</masked>
+        <name>select_carrier4_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>4bb54b58-aced-4b25-9fe2-3e7700ffa284</id>
+        <masked>false</masked>
+        <name>select_jurisdiction3</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>26438bef-c492-40eb-8154-4c55dedc9a7c</id>
+        <masked>false</masked>
+        <name>select_productType3</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>cf42dc76-a156-4e76-855c-1bfc383fe9b3</id>
+        <masked>false</masked>
+        <name>select_productType3_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>675e4480-1c36-4def-a36b-1a37d522a3e6</id>
+        <masked>false</masked>
+        <name>select_productType3_2</name>
+    </variable>
+</TestCaseEntity>

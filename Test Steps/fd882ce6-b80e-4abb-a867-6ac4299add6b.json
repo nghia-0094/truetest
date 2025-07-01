@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to /EGApp",
+        "step 2: Click on link startNew3 -> Navigate to page '/EGApp/NewApplication'",
+        "step 3: Select option with input value from select jurisdiction3",
+        "step 4: Click on link annuityIllustrations (fixedIndexedAnnuityTesting) -> Navigate to page '/EGApp/EditIllustration'",
+        "step 5: Click on div alertsContainer",
+        "step 6: Click on div alertsContainer -> Navigate to page ''",
+        "step 7: Take full page screenshot as checkpoint"
+    ]
+}

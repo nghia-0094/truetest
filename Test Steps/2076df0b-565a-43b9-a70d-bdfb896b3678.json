@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /EGApp/*",
+        "step 2: Click on link newApplication10 -> Navigate to page '/EGApp/EditWizardApplication'",
+        "step 3: Click on button next2",
+        "step 4: Select option with input value from select dynamicOptions (cashExchange)",
+        "step 5: Click on span dynamicText (transferFundsPrompt)",
+        "step 6: Click on span dynamicText (transferFundsPrompt)",
+        "step 7: Click on link openPageList7",
+        "step 8: Click on div applicationPages -> Navigate to page ''",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}

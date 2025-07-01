@@ -1,0 +1,20 @@
+{
+    "steps": [
+        "step 1: Navigate to /EGApp with params (LaunchPoint)",
+        "step 2: Click on link page28",
+        "step 3: Click on link page39",
+        "step 4: Click on link page47",
+        "step 5: Click on link allActivities3",
+        "step 6: Click on button advancedSearch",
+        "step 7: Select option with input value from select userActivitiesFilter",
+        "step 8: Click on input contractNumber3",
+        "step 9: Enter input value in input contractNumber3",
+        "step 10: Click on button search",
+        "step 11: Click on link viewDetails (view4)",
+        "step 12: Click on div prelimPage",
+        "step 13: Click on link openPageList44",
+        "step 14: Click on link navigationLinks (page142)",
+        "step 15: Click on link home13",
+        "step 16: Take full page screenshot as checkpoint"
+    ]
+}

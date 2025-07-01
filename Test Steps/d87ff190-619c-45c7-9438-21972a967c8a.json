@@ -1,0 +1,16 @@
+{
+    "steps": [
+        "step 1: Navigate to /EGApp with params (LaunchPoint)",
+        "step 2: Click on link reviewQueue4",
+        "step 3: Select option with input value from select filterByDate",
+        "step 4: Click on strong object",
+        "step 5: Click on td object3",
+        "step 6: Click on input reviewApplicationButtons (reviewApplication5)",
+        "step 7: Click on td navigationLinks",
+        "step 8: Click on button applicationApproval (approveApplication5)",
+        "step 9: Click on button approve",
+        "step 10: Click on td object3",
+        "step 11: Click on td object3 -> Navigate to page ''",
+        "step 12: Take full page screenshot as checkpoint"
+    ]
+}

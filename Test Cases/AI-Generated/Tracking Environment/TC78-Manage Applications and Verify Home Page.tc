@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>97e34fa1-9748-403e-93dc-5236d8978273</id>
+        </flow>
+    </customField>
+    <description>Navigate to the application management section, interact with various elements, and verify the application page after returning to the home page.</description>
+    <name>TC78-Manage Applications and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>54f7f9ea-8c89-4afc-b5f0-f77059c7052d</testCaseGuid>
+    <variable>
+        <defaultValue>'Withdrawal Charge Period'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>fbc33fdd-72f2-4dbc-a9ac-376b80c2be7c</id>
+        <masked>false</masked>
+        <name>label_dynamicObject_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'Withdrawal Charge Period'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d38b4739-5d13-46a8-8c13-56186a0c94b5</id>
+        <masked>false</masked>
+        <name>label_dynamicObject_internalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Withdrawal Charge Period'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>045a7427-e4c0-4ae1-af85-132760f6be11</id>
+        <masked>false</masked>
+        <name>label_dynamicObject_internalText_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\34 ca26eae-4d52-413b-935d-2bce6e0d5f87'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>fb4dc212-ffeb-4d8d-9e29-f44c1cdbba43</id>
+        <masked>false</masked>
+        <name>link_applicationManagement_id</name>
+    </variable>
+</TestCaseEntity>
