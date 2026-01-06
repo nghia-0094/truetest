@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>47f1b4dd-27d7-49af-afde-1969f4ccf697</id>
@@ -19,7 +18,7 @@
     </integratedEntity>
     <name>TC6-Checkout with Personal Information and Payment</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>tri</tag>
     <testCaseGuid>c88d614c-2ae1-478e-86bf-fb1f3c82338b</testCaseGuid>
     <variable>
         <defaultValue>'Chamaedorea elegansIndoor-Plants$300.00Add to basket'</defaultValue>
