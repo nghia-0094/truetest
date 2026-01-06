@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>e2b5d702-cee2-44d3-8f6d-ff6ec1657108</id>
+        </flow>
+    </customField>
+    <description>Login, create a new application, and send an e-signature request to signers. Verify the home page after completing the process.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC4-Send E Signature Request for Application</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>7d101ba4-2f16-422f-bd6f-d30bd388e76f</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 6: Enter input value in input name - (Input data variable)</description>
+        <id>4fa71cab-d251-4d5f-b175-ec4b9a60c599</id>
+        <masked>false</masked>
+        <name>input_name</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 17: Enter input value in input signerBirthDate - (Input data variable)</description>
+        <id>e678ce48-179f-4c22-9f3f-7d796b01928c</id>
+        <masked>false</masked>
+        <name>input_signerBirthDate</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 13: Enter input value in input signerEmail - (Input data variable)</description>
+        <id>d7350ebe-e30b-4624-a319-922a4f6c8e99</id>
+        <masked>false</masked>
+        <name>input_signerEmail</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 15: Enter input value in input signerLast4DigitsSsn - (Input data variable)</description>
+        <id>dd35458e-f161-422e-bf56-836e162cf4ed</id>
+        <masked>false</masked>
+        <name>input_signerLast4DigitsSsn</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 11: Enter input value in input signerName - (Input data variable)</description>
+        <id>b64c0e47-e85f-413d-bb89-7c84deb70cc7</id>
+        <masked>false</masked>
+        <name>input_signerName</name>
+    </variable>
+    <variable>
+        <defaultValue>'Annuitant'</defaultValue>
+        <description>Step 8: Click on link annuitant (annuitant) - (Dynamic locator variable)</description>
+        <id>967f7555-bd7f-4269-b73f-83f7cd40f8b5</id>
+        <masked>false</masked>
+        <name>link_annuitant_InternalLabel_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'[id=\\"Annuitant\\"]'</defaultValue>
+        <description>Step 8: Click on link annuitant (annuitant) - (Dynamic locator variable)</description>
+        <id>f4c9b91d-a5f9-4c7f-a677-1413d42e5cdf</id>
+        <masked>false</masked>
+        <name>link_annuitant_css_value_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'/EGSTS/users/issue.aspx?wa=wsignin1.0&amp;wtrealm=https%3A%2F%2Fflqanext.insurancetechnologies.com%2FEGApp%2F&amp;wctx=rm%3D0%26id%3Dpassive%26ru%3D%252FEGApp%252F&amp;wct={{date_time}}{{date_time}}%3A40%3A53Z'</defaultValue>
+        <description>Step 1: Navigate to /EGSTS/login.aspx with params (ReturnUrl, wa, wct, wctx, wtrealm) - (Dynamic URL variable)</description>
+        <id>b6b87697-d8aa-4a03-b01b-c6e51d60a1fa</id>
+        <masked>false</masked>
+        <name>login_ReturnUrl</name>
+    </variable>
+    <variable>
+        <defaultValue>'wsignin1.0'</defaultValue>
+        <description>Step 1: Navigate to /EGSTS/login.aspx with params (ReturnUrl, wa, wct, wctx, wtrealm) - (Dynamic URL variable)</description>
+        <id>50fdd8a6-c50a-4c50-b5a1-89b8da64b518</id>
+        <masked>false</masked>
+        <name>login_wa</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{date_time}}18T07{{date_time}}'</defaultValue>
+        <description>Step 1: Navigate to /EGSTS/login.aspx with params (ReturnUrl, wa, wct, wctx, wtrealm) - (Dynamic URL variable)</description>
+        <id>6970beac-a176-4943-9ea0-0830ef8994f0</id>
+        <masked>false</masked>
+        <name>login_wct</name>
+    </variable>
+    <variable>
+        <defaultValue>'rm=0&amp;id=passive&amp;ru=%2FEGApp%2F'</defaultValue>
+        <description>Step 1: Navigate to /EGSTS/login.aspx with params (ReturnUrl, wa, wct, wctx, wtrealm) - (Dynamic URL variable)</description>
+        <id>41e4293a-b3dd-4350-bc76-0a65ef951bc2</id>
+        <masked>false</masked>
+        <name>login_wctx</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{url}}'</defaultValue>
+        <description>Step 1: Navigate to /EGSTS/login.aspx with params (ReturnUrl, wa, wct, wctx, wtrealm) - (Dynamic URL variable)</description>
+        <id>a0d9c7a3-54df-4aa2-8b9f-8eb6ee4cde5b</id>
+        <masked>false</masked>
+        <name>login_wtrealm</name>
+    </variable>
+</TestCaseEntity>

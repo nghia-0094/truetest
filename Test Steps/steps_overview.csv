@@ -1,0 +1,208 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Create New Application with Annuity Options,Login and create a new application by selecting annuity options. Validate the application and verify the application edit page.,"Step 1: Navigate to /EGSTS/login.aspx with params (ReturnUrl, wa, wct, wctx, wtrealm)
+Step 2: Login -> Navigate to page '/EGApp'
+Step 3: Click on link newApplication -> Navigate to page '/EGApp/NewApplication'
+Step 4: Click on link annuityOptions (annuityFlaccessCarrier)
+Step 5: Click on link create
+Step 6: Enter input value in input appName
+Step 7: Click on button create -> Navigate to page '/EGApp/EditWizardApplication'
+Step 8: Click on button next
+Step 9: Click on button validateApplication (validate)
+Step 10: Take full page screenshot as checkpoint
+",High,NEW
+5,Login and Navigate to New Application Page,"Navigate to the login page, log in, and access the new application page. Verify that the new application page is displayed.","Step 1: Navigate to /EGSTS/login.aspx with params (ReturnUrl, wa, wct, wctx, wtrealm)
+Step 2: Login -> Navigate to page '/EGApp'
+Step 3: Click on link newApplication -> Navigate to page '/EGApp/NewApplication'
+Step 4: Take full page screenshot as checkpoint
+",High,NEW
+10,Navigate Through Edit Wizard Application Pages,"Login to the Edit Wizard Application, navigate through the wizard, and verify the ability to return to the home page from the wizard.","Step 1: Navigate to https://www.saucedemo.com/
+Step 2: Login
+Step 3: Navigate to /EGApp/EditWizardApplication with params (AppGuid, RecordMetric)
+Step 4: Click on button next3
+Step 5: Click on div wizardHeading
+Step 6: Click on link pageListOptions (openPageList2)
+Step 7: Click on link pageNavigation (page4) -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",High,NEW
+2,Copy Existing Application and Modify Details,"Login, create a new application, and log off. Search for an existing application, copy it, and modify details before verifying the home page.","Step 1: Navigate to /EGSTS/login.aspx with params (ReturnUrl, wa, wct, wctx, wtrealm)
+Step 2: Login -> Navigate to page '/EGApp'
+Step 3: Click on link startNewApplication -> Navigate to page '/EGApp/NewApplication'
+Step 4: Click on link fixedAnnuityOptions (fixedAnnuityFlaccessCarrier)
+Step 5: Click on link create2
+Step 6: Enter input value in input name
+Step 7: Click on button create -> Navigate to page '/EGApp/EditWizardApplication'
+Step 8: Click on link logOff -> Navigate to page '/EGSTS/login.aspx'
+Step 9: Login -> Navigate to page '/EGApp'
+Step 10: Click on link allActivities -> Navigate to page '/EGApp/Applications'
+Step 11: Enter input value in input keywordSearch
+Step 12: Click on button copyAsIs
+Step 13: Click on button ok -> Navigate to page '/EGApp/EditWizardApplication'
+Step 14: Click on link close
+Step 15: Click on link home
+Step 16: Click on button ok -> Navigate to page '/EGApp'
+Step 17: Click on link allActivities2 -> Navigate to page '/EGApp/Applications'
+Step 18: Enter input value in input keywordSearch2
+Step 19: Click on button copyWithChanges -> Navigate to page '/EGApp/NewApplication/Index/*'
+Step 20: Click on link fixedAnnuity
+Step 21: Click on link create
+Step 22: Enter input value in input appName
+Step 23: Click on button create -> Navigate to page '/EGApp/EditApplication'
+Step 24: Click on link close -> Navigate to page ''
+Step 25: Take full page screenshot as checkpoint
+",Medium,NEW
+4,Send E Signature Request for Application,"Login, create a new application, and send an e-signature request to signers. Verify the home page after completing the process.","Step 1: Navigate to /EGSTS/login.aspx with params (ReturnUrl, wa, wct, wctx, wtrealm)
+Step 2: Login -> Navigate to page '/EGApp'
+Step 3: Click on link newApplication -> Navigate to page '/EGApp/NewApplication'
+Step 4: Click on link annuityFlaccessCarrier2
+Step 5: Click on link create4
+Step 6: Enter input value in input name
+Step 7: Click on button create2 -> Navigate to page '/EGApp/eSign/Signers'
+Step 8: Click on link annuitant (annuitant)
+Step 9: Click on link proceed -> Navigate to page '/EGApp/eSign/MultiClientSelected'
+Step 10: Click on link sendEmailRequest -> Navigate to page '/EGApp/eSign/ClientEmail'
+Step 11: Enter input value in input signerName
+Step 12: Click on input signerEmail
+Step 13: Enter input value in input signerEmail
+Step 14: Click on input signerLast4DigitsSsn
+Step 15: Enter input value in input signerLast4DigitsSsn
+Step 16: Click on input signerBirthDate
+Step 17: Enter input value in input signerBirthDate
+Step 18: Click on button generateLinkWithoutEmail
+Step 19: Click on link backToSigners -> Navigate to page '/EGApp/eSign/Signers'
+Step 20: Click on link backToApplication -> Navigate to page '/EGApp/EditWizardApplication'
+Step 21: Click on button close
+Step 22: Click on link logOff2 -> Navigate to page ''
+Step 23: Take full page screenshot as checkpoint
+",Medium,NEW
+7,Create Fixed Annuity Application and Print PDF,Log in and create a fixed annuity application. Fill in the required details and print the application as a PDF.,"Step 1: Navigate to https://www.saucedemo.com/
+Step 2: Login
+Step 3: Navigate to /EGApp/NewApplication with params (acordType)
+Step 4: Click on link fixedAnnuityOptions (annuityFlaccessCarrier3)
+Step 5: Click on link create4
+Step 6: Enter input value in input name
+Step 7: Click on button create -> Navigate to page '/EGApp/EditWizardApplication'
+Step 8: Click on link pageListOptions (openPageList)
+Step 9: Click on link page1
+Step 10: Enter input value in input fullName
+Step 11: Press key Tab on input fullName
+Step 12: Click on link otherActions
+Step 13: Click on link printPdf (displayPrintPdf) -> Navigate to page ''
+Step 14: Take full page screenshot as checkpoint
+",Low,NEW
+8,Create New Application with Non Qualified Options,Log in and create a new application with non-qualified options. Fill in the necessary details and proceed to complete the application.,"Step 1: Navigate to /EGSTS/login.aspx with params (ReturnUrl, wa, wct, wctx, wtrealm)
+Step 2: Login -> Navigate to page '/EGApp'
+Step 3: Click on link newApplication -> Navigate to page '/EGApp/NewApplication'
+Step 4: Click on link annuityOptions (annuityAmericoFinancial2)
+Step 5: Click on link create3
+Step 6: Enter input value in input name
+Step 7: Press key Tab on input name
+Step 8: Click on button create -> Navigate to page '/EGApp/EditWizardApplication'
+Step 9: Click on div yes
+Step 10: Click on div checkboxNoOptions (checkboxNo3)
+Step 11: Click on div checkboxNoOptions (checkboxNo4)
+Step 12: Click on div checkboxNonQualified2
+Step 13: Click on div checkboxYesNoOptions (checkboxYes2)
+Step 14: Click on button next3 -> Navigate to page ''
+Step 15: Take full page screenshot as checkpoint
+",Low,NEW
+3,Create Application with Personal Information and Options,Login and create a new application with fixed annuity options. Fill out personal information and verify the home page.,"Step 1: Navigate to /EGSTS/login.aspx with params (ReturnUrl, wa, wct, wctx, wtrealm)
+Step 2: Login -> Navigate to page '/EGApp'
+Step 3: Click on link newApplication -> Navigate to page '/EGApp/NewApplication'
+Step 4: Click on link fixedAnnuityOptions (annuityAmericoFinancial)
+Step 5: Click on link create3
+Step 6: Enter input value in input name
+Step 7: Press key Tab on input name
+Step 8: Click on button create -> Navigate to page '/EGApp/EditWizardApplication'
+Step 9: Click on div checkboxYesNoOptions (checkboxYes)
+Step 10: Click on div checkboxYesNoOptions (checkboxNo)
+Step 11: Click on div checkboxNoOptions (checkboxNo2)
+Step 12: Click on div checkboxNoOptions (checkboxNo3)
+Step 13: Click on div checkboxNoOptions (checkboxNo4)
+Step 14: Fill out personal information and proceed to next step
+	- Step 1: Click on div incomeAndCheckboxOptions
+	- Step 2: Click on button next3
+	- Step 3: Enter input value in input firstName
+	- Step 4: Press key Tab on input firstName
+	- Step 5: Enter input value in input lastName
+	- Step 6: Press key Tab on input lastName
+	- Step 7: Press key Tab on input dateOfBirth
+	- Step 8: Click on div ownerInformation
+	- Step 9: Press key Tab on input premiumPaymentWithApplication
+Step 15: Click on div relationshipToAnnuitant -> Navigate to page ''
+Step 16: Take full page screenshot as checkpoint
+",Trivial,NEW
+6,Create New Application with Personal Information,Log in and navigate to create a new application. Fill out personal information and proceed through the steps to complete the application process.,"Step 1: Navigate to /EGSTS/login.aspx with params (ReturnUrl, wa, wct, wctx, wtrealm)
+Step 2: Login -> Navigate to page '/EGApp'
+Step 3: Click on link newApplication -> Navigate to page '/EGApp/NewApplication'
+Step 4: Click on link annuityOptions (annuityAmericoFinancialLife)
+Step 5: Click on link create5
+Step 6: Enter input value in input name
+Step 7: Press key Tab on input appName
+Step 8: Click on button create2 -> Navigate to page '/EGApp/EditWizardApplication'
+Step 9: Click on div checkboxYesNoOptions (checkboxNo)
+Step 10: Click on div checkboxYesNoOptions (checkboxYes2)
+Step 11: Click on div checkboxYesNoOptions (checkboxYes3)
+Step 12: Click on div checkboxYesNoOptions (checkboxNo5)
+Step 13: Fill out personal information and proceed to next step
+	- Step 1: Click on div incomeAndCheckboxOptions
+	- Step 2: Click on button next3
+	- Step 3: Enter input value in input firstName
+	- Step 4: Press key Tab on input firstName
+	- Step 5: Enter input value in input lastName
+	- Step 6: Press key Tab on input lastName
+	- Step 7: Press key Tab on input dateOfBirth
+	- Step 8: Click on div ownerInformation
+	- Step 9: Press key Tab on input premiumPaymentWithApplication
+Step 14: Enter input value in input mailingAddressStreet
+Step 15: Press key Tab on input mailingAddressStreet
+Step 16: Enter input value in input city
+Step 17: Press key Tab on input city
+Step 18: Press key Tab on input yearsAtCurrentAddress
+Step 19: Enter input value in input yearsAtCurrentAddress2
+Step 20: Press key Tab on input yearsAtCurrentAddress2
+Step 21: Click on div secondResidenceCheckbox
+Step 22: Enter input value in input previousAddress
+Step 23: Press key Tab on input previousAddress
+Step 24: Enter input value in input previousCity
+Step 25: Press key Tab on input previousCity
+Step 26: Press key Tab on input previousAddressZip
+Step 27: Press key Tab on input primaryPhoneNumber
+Step 28: Enter input value in input emailAddress
+Step 29: Press key Tab on input emailAddress
+Step 30: Click on div yesCheckbox (yesCheckbox)
+Step 31: Click on div checkboxYesOptions (checkboxYes4)
+Step 32: Click on div checkboxYesOptions (checkboxYes5)
+Step 33: Click on div checkboxYesOptions (checkboxYes6)
+Step 34: Click on button next2 -> Navigate to page ''
+Step 35: Take full page screenshot as checkpoint
+",Trivial,NEW
+9,Complete User Information in Edit Wizard Application,"Login to the Edit Wizard Application and fill in user details including SSN, occupation, address, and contact information. Navigate through the steps and verify completion.","Step 1: Navigate to https://www.saucedemo.com/
+Step 2: Login
+Step 3: Navigate to /EGApp/EditWizardApplication with params (AppGuid, RecordMetric)
+Step 4: Click on button next3
+Step 5: Enter input value in input ssn
+Step 6: Press key Tab on input ssn
+Step 7: Enter input value in input occupation
+Step 8: Press key Tab on input occupation
+Step 9: Enter input value in input addressLookup
+Step 10: Press key Tab on input addressLookup
+Step 11: Click on link address
+Step 12: Enter input value in input residentialAddressLookup
+Step 13: Press key Tab on input residentialAddressLookup
+Step 14: Click on link address2
+Step 15: Press key Tab on input primaryPhoneNumberDay
+Step 16: Enter input value in input emailAddress2
+Step 17: Press key Tab on input emailAddress2
+Step 18: Enter input value in input driverLicenseNumber
+Step 19: Press key Tab on input driverLicenseNumber
+Step 20: Click on div checkboxYesOptions (checkboxYes7)
+Step 21: Click on button nextStep (next4)
+Step 22: Press key Tab on input ssn2
+Step 23: Enter input value in input annuitantResidentialAddressLookup
+Step 24: Press key Tab on input annuitantResidentialAddressLookup
+Step 25: Click on link address2
+Step 26: Press key Tab on input daytimePhoneNumber
+Step 27: Enter input value in input emailAddress3
+Step 28: Press key Tab on input emailAddress3 -> Navigate to page ''
+Step 29: Take full page screenshot as checkpoint
+",Trivial,NEW

@@ -1,0 +1,162 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "name": "Navigate to /EGSTS/login.aspx with params (ReturnUrl, wa, wct, wctx, wtrealm)",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Login -> Navigate to page '/EGApp'",
+      "sub_steps": [],
+      "action_id": "5e3dff06-79e3-4271-9a95-983a6e99f549",
+      "timestamp": 1763451656187,
+      "target_name": ""
+    },
+    {
+      "name": "Click on link newApplication -> Navigate to page '/EGApp/NewApplication'",
+      "sub_steps": [],
+      "action_id": "bb71e681-f0ff-4609-b87e-e82145912938",
+      "timestamp": 1763451662692,
+      "target_name": "link_newApplication"
+    },
+    {
+      "name": "Click on link annuityFlaccessCarrier2",
+      "sub_steps": [],
+      "action_id": "e8578a36-c28b-4a27-8774-22f84558144f",
+      "timestamp": 1763451672319,
+      "target_name": "link_annuityFlaccessCarrier2"
+    },
+    {
+      "name": "Click on link create4",
+      "sub_steps": [],
+      "action_id": "855565f8-e476-45d3-9c79-0802a857d265",
+      "timestamp": 1763451675310,
+      "target_name": "link_create4"
+    },
+    {
+      "name": "Enter input value in input name",
+      "sub_steps": [],
+      "action_id": "a72f042f-e65d-4fa4-9ab0-18b131358d2c",
+      "timestamp": 1763451675475,
+      "target_name": "input_name"
+    },
+    {
+      "name": "Click on button create2 -> Navigate to page '/EGApp/eSign/Signers'",
+      "sub_steps": [],
+      "action_id": "17482eee-d12d-4ed0-a91e-d3a00610e3e3",
+      "timestamp": 1763451675941,
+      "target_name": "button_create2"
+    },
+    {
+      "name": "Click on link annuitant (annuitant)",
+      "sub_steps": [],
+      "action_id": "8cccaf22-fb4f-4e3e-8d41-53d15d92c852",
+      "timestamp": 1763451689553,
+      "target_name": "link_annuitant"
+    },
+    {
+      "name": "Click on link proceed -> Navigate to page '/EGApp/eSign/MultiClientSelected'",
+      "sub_steps": [],
+      "action_id": "be17cc8d-7ba7-4c99-bc63-3d6a7c6e6541",
+      "timestamp": 1763451694485,
+      "target_name": "link_proceed"
+    },
+    {
+      "name": "Click on link sendEmailRequest -> Navigate to page '/EGApp/eSign/ClientEmail'",
+      "sub_steps": [],
+      "action_id": "0e69cf56-22a0-4385-93f0-3d89640678e9",
+      "timestamp": 1763451697982,
+      "target_name": "link_sendEmailRequest"
+    },
+    {
+      "name": "Enter input value in input signerName",
+      "sub_steps": [],
+      "action_id": "289912ff-eafd-43d3-b826-b9a30c21750f",
+      "timestamp": 1763451699986,
+      "target_name": "input_signerName"
+    },
+    {
+      "name": "Click on input signerEmail",
+      "sub_steps": [],
+      "action_id": "09bd15c0-ca7b-4497-ad5c-fb151d1bc1fb",
+      "timestamp": 1763451700072,
+      "target_name": "input_signerEmail"
+    },
+    {
+      "name": "Enter input value in input signerEmail",
+      "sub_steps": [],
+      "action_id": "a062d2f5-5ad7-451f-a42c-775860839194",
+      "timestamp": 1763451700134,
+      "target_name": "input_signerEmail"
+    },
+    {
+      "name": "Click on input signerLast4DigitsSsn",
+      "sub_steps": [],
+      "action_id": "97d1e5a3-cbdb-45d7-b3ab-fc7b48d8f43e",
+      "timestamp": 1763451700227,
+      "target_name": "input_signerLast4DigitsSsn"
+    },
+    {
+      "name": "Enter input value in input signerLast4DigitsSsn",
+      "sub_steps": [],
+      "action_id": "b3065ccb-97e9-4ebb-8543-4171dd6c08e6",
+      "timestamp": 1763451700344,
+      "target_name": "input_signerLast4DigitsSsn"
+    },
+    {
+      "name": "Click on input signerBirthDate",
+      "sub_steps": [],
+      "action_id": "05feb62b-2071-4582-9680-1ccff393722d",
+      "timestamp": 1763451700428,
+      "target_name": "input_signerBirthDate"
+    },
+    {
+      "name": "Enter input value in input signerBirthDate",
+      "sub_steps": [],
+      "action_id": "37acda60-3edc-4be4-a0fc-1f62500fe0ea",
+      "timestamp": 1763451700500,
+      "target_name": "input_signerBirthDate"
+    },
+    {
+      "name": "Click on button generateLinkWithoutEmail",
+      "sub_steps": [],
+      "action_id": "f9f06c6d-db5a-48b9-b580-a25e31f93749",
+      "timestamp": 1763451703020,
+      "target_name": "button_generateLinkWithoutEmail"
+    },
+    {
+      "name": "Click on link backToSigners -> Navigate to page '/EGApp/eSign/Signers'",
+      "sub_steps": [],
+      "action_id": "e807b7ad-96f5-4986-9dc6-3378a3c204b4",
+      "timestamp": 1763451736721,
+      "target_name": "link_backToSigners"
+    },
+    {
+      "name": "Click on link backToApplication -> Navigate to page '/EGApp/EditWizardApplication'",
+      "sub_steps": [],
+      "action_id": "e775f176-65ad-4d27-9328-471b47f5b9cc",
+      "timestamp": 1763451755316,
+      "target_name": "link_backToApplication"
+    },
+    {
+      "name": "Click on button close",
+      "sub_steps": [],
+      "action_id": "0f9b0e66-1426-424d-a6f5-1d1d4b12b333",
+      "timestamp": 1763451912507,
+      "target_name": "button_close"
+    },
+    {
+      "name": "Click on link logOff2 -> Navigate to page ''",
+      "sub_steps": [],
+      "action_id": "c89de397-81f3-407a-9622-380daa3a620f",
+      "timestamp": 1763451913955,
+      "target_name": "link_logOff2"
+    },
+    {
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "target_name": ""
+    }
+  ]
+}
