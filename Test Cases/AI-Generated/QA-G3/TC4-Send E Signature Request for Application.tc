@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>e2b5d702-cee2-44d3-8f6d-ff6ec1657108</id>
@@ -19,7 +18,7 @@
     </integratedEntity>
     <name>TC4-Send E Signature Request for Application</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>tri</tag>
     <testCaseGuid>7d101ba4-2f16-422f-bd6f-d30bd388e76f</testCaseGuid>
     <variable>
         <defaultValue>''</defaultValue>
