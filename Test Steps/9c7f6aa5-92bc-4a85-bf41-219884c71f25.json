@@ -1,0 +1,202 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "name": "Navigate to /",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Click on link signIn -> Navigate to page '/signin'",
+      "sub_steps": [],
+      "action_id": "39f7b3aa-cad9-4fa5-b41f-ea81382dc60e",
+      "timestamp": 1735704257641,
+      "target_name": "link_signIn"
+    },
+    {
+      "name": "Login",
+      "sub_steps": [],
+      "action_id": "a9c333de-b8a4-4378-ad1d-96ab9a1702cc",
+      "timestamp": 1735704258873,
+      "target_name": ""
+    },
+    {
+      "name": "Click on link shop -> Navigate to page '/shop'",
+      "sub_steps": [],
+      "action_id": "62abf76d-8fb9-4e32-b2b5-bdb748578386",
+      "timestamp": 1735704259997,
+      "target_name": "link_shop"
+    },
+    {
+      "name": "Hover over div basketActions (addToBasket)",
+      "sub_steps": [],
+      "action_id": "804267b4-d493-4457-abd2-720067130363",
+      "timestamp": 1735704260511,
+      "target_name": "div_basketActions"
+    },
+    {
+      "name": "Click on button productAction2",
+      "sub_steps": [],
+      "action_id": "49c60ff3-d80f-4d6b-bad2-bcddef86ec4d",
+      "timestamp": 1735704262691,
+      "target_name": "button_productAction2"
+    },
+    {
+      "name": "Click on span shopping",
+      "sub_steps": [],
+      "action_id": "7abe9187-8151-4a84-9497-7e3f0fd6919a",
+      "timestamp": 1735704265833,
+      "target_name": "span_shopping"
+    },
+    {
+      "name": "Click on span quantityControl (close)",
+      "sub_steps": [],
+      "action_id": "ac03aab8-b411-4c4b-9fdb-b541b11d685a",
+      "timestamp": 1735704266262,
+      "target_name": "span_quantityControl"
+    },
+    {
+      "name": "Close basket, manage actions, and proceed to checkout.",
+      "sub_steps": [
+        {
+          "name": "Click on span close2",
+          "action_id": "bff236e9-0247-469e-8637-240c031ade66",
+          "timestamp": 1735704492350,
+          "target_name": "span_close2"
+        },
+        {
+          "name": "Hover over div basketActions",
+          "action_id": "f27dd635-c70d-4ef3-ad2a-3bf2528284c1",
+          "timestamp": 1735704492392,
+          "target_name": "div_basketActions"
+        },
+        {
+          "name": "Click on button productActions",
+          "action_id": "c61431fb-a558-4faa-991f-0002220f8ce4",
+          "timestamp": 1735704494565,
+          "target_name": "button_productActions"
+        },
+        {
+          "name": "Click on span shopping",
+          "action_id": "3435dd5b-9acf-4a66-9f9b-4930ca7a679b",
+          "timestamp": 1735704497687,
+          "target_name": "span_shopping"
+        },
+        {
+          "name": "Click on button checkOut -> Navigate to page '/checkout/*'",
+          "action_id": "646dc257-d29e-45cd-a31d-3160d45c667a",
+          "timestamp": 1735704498029,
+          "target_name": "button_checkOut"
+        },
+        {
+          "name": "Click on button nextStep",
+          "action_id": "d2147b78-bb2a-4725-b886-f28abd985320",
+          "timestamp": 1735704499227,
+          "target_name": "button_nextStep"
+        }
+      ],
+      "action_id": "bff236e9-0247-469e-8637-240c031ade66",
+      "timestamp": 1735704492350,
+      "target_name": "span_close2"
+    },
+    {
+      "name": "Enter shipping details and proceed to the next step.",
+      "sub_steps": [
+        {
+          "name": "Enter input value in input fullName",
+          "action_id": "d17dfb6b-ebca-45b7-b1f6-091a039b69be",
+          "timestamp": 1735704466237,
+          "target_name": "input_fullName"
+        },
+        {
+          "name": "Enter input value in input emailPlaceholder",
+          "action_id": "cb13b54c-96d7-469d-85aa-a779a173de2f",
+          "timestamp": 1735704466295,
+          "target_name": "input_emailPlaceholder"
+        },
+        {
+          "name": "Enter input value in input addressPlaceholder",
+          "action_id": "3593f9a6-554b-4617-8c21-65c8700c4adb",
+          "timestamp": 1735704466370,
+          "target_name": "input_addressPlaceholder"
+        },
+        {
+          "name": "Enter input value in input phonePlaceholder",
+          "action_id": "460e6a8c-bf3f-4ed6-a1ca-468af35f8243",
+          "timestamp": 1735704466573,
+          "target_name": "input_phonePlaceholder"
+        },
+        {
+          "name": "Click on header shippingInfo",
+          "action_id": "78c20b60-f97d-482e-8492-ae9404dee14a",
+          "timestamp": 1735704466575,
+          "target_name": "header_shippingInfo"
+        },
+        {
+          "name": "Click on input shippingOption",
+          "action_id": "a44e8917-7cf7-47d6-be59-fab36c09c60e",
+          "timestamp": 1735704466577,
+          "target_name": "input_shippingOption"
+        },
+        {
+          "name": "Click on button nextStep2",
+          "action_id": "d9fa6223-a218-4881-9abf-8ab78e2a1e30",
+          "timestamp": 1735704466725,
+          "target_name": "button_nextStep2"
+        }
+      ],
+      "action_id": "d17dfb6b-ebca-45b7-b1f6-091a039b69be",
+      "timestamp": 1735704466237,
+      "target_name": "input_fullName"
+    },
+    {
+      "name": "Input credit card details and confirm the checkout.",
+      "sub_steps": [
+        {
+          "name": "Click on div creditCardPayment",
+          "action_id": "b61ceb61-d9f7-4fb3-b8a1-8e8d0a127b7f",
+          "timestamp": 1735704499960,
+          "target_name": "div_creditCardPayment"
+        },
+        {
+          "name": "Click on input creditCard",
+          "action_id": "2cd08164-75a1-46cb-9bd2-aee7bd1f9472",
+          "timestamp": 1735704499962,
+          "target_name": "input_creditCard"
+        },
+        {
+          "name": "Enter input value in input namePlaceholder",
+          "action_id": "1afdd91d-7653-4e50-b391-cf36be38e140",
+          "timestamp": 1735704500042,
+          "target_name": "input_namePlaceholder"
+        },
+        {
+          "name": "Enter input value in input cardNumber",
+          "action_id": "e5a88a8c-abaf-4748-b2ad-940a8a9ac0e5",
+          "timestamp": 1735704500139,
+          "target_name": "input_cardNumber"
+        },
+        {
+          "name": "Enter input value in input passwordPlaceholder",
+          "action_id": "a3c64fca-89ce-4ef3-a168-742102ef02a2",
+          "timestamp": 1735704500193,
+          "target_name": "input_passwordPlaceholder"
+        },
+        {
+          "name": "Click on button confirmCheckout",
+          "action_id": "5c2ad7ba-6b3e-476a-bef2-bc0caf2d7784",
+          "timestamp": 1735704500195,
+          "target_name": "button_confirmCheckout"
+        }
+      ],
+      "action_id": "b61ceb61-d9f7-4fb3-b8a1-8e8d0a127b7f",
+      "timestamp": 1735704499960,
+      "target_name": "div_creditCardPayment"
+    },
+    {
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "target_name": ""
+    }
+  ]
+}

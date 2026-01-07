@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>b4a346e2-622c-4a52-b03f-eb5386848926</id>
+        </flow>
+    </customField>
+    <description>Start from the home page, sign in, select products, add to basket, and provide detailed shipping and payment information to complete the checkout.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC14-Checkout Process with Detailed Shipping and Payment Information</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>572d59ce-845f-49d2-a13b-2d3fcff90474</testCaseGuid>
+    <variable>
+        <defaultValue>'A'</defaultValue>
+        <description>Step 20: Enter input value in input addressPlaceholder - (Input data variable)</description>
+        <id>0b1fb8e9-caf1-4a67-bbb8-25e0d67dbf04</id>
+        <masked>false</masked>
+        <name>input_addressPlaceholder</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 17: Enter input value in input emailPlaceholder - (Input data variable)</description>
+        <id>a5a09d00-d294-4259-8ff6-a03d35661aaa</id>
+        <masked>false</masked>
+        <name>input_emailPlaceholder</name>
+    </variable>
+    <variable>
+        <defaultValue>'A'</defaultValue>
+        <description>Step 15: Enter input value in input fullName - (Input data variable)</description>
+        <id>1a433bfa-aa6e-4e7c-8da0-3457f41c497e</id>
+        <masked>false</masked>
+        <name>input_fullName</name>
+    </variable>
+    <variable>
+        <defaultValue>'AA'</defaultValue>
+        <description>Step 27: Enter input value in input fullName - (Input data variable)</description>
+        <id>3dc39cc3-aebf-4de4-81bb-d77d3b8e012d</id>
+        <masked>false</masked>
+        <name>input_fullName_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 21: Enter input value in input phonePlaceholder - (Input data variable)</description>
+        <id>c1751ffd-8800-48e0-bb9f-b8c906ba851c</id>
+        <masked>false</masked>
+        <name>input_phonePlaceholder</name>
+    </variable>
+</TestCaseEntity>

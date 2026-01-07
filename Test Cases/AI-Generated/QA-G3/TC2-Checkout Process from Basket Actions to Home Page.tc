@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>5a1cece9-6c75-4171-b740-479eb7b6ec43</id>
+        </flow>
+    </customField>
+    <description>Navigate to shop, perform basket actions, sign in, and complete the checkout process with shipping and payment details.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC2-Checkout Process from Basket Actions to Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>31effc74-94d7-49da-8f75-3e139aa7fcc1</testCaseGuid>
+    <variable>
+        <defaultValue>'[class=\\"css-vbgp86-SkeletonTheme\\"]:nth-child(2) [class=\\"product-card-button\\\\ button-small\\\\ button\\\\ button-block\\\\ \\"]'</defaultValue>
+        <description>Step 3: Click on button productActions (productAction) - (Dynamic locator variable)</description>
+        <id>ab1909fd-d149-4b22-91e6-0924e9f4e637</id>
+        <masked>false</masked>
+        <name>button_productActions_css_value</name>
+    </variable>
+    <variable>
+        <defaultValue>'[class=\\"css-vbgp86-SkeletonTheme\\"]:nth-child(2) [class=\\"product-card-button\\\\ button-small\\\\ button\\\\ button-block\\\\ \\"]'</defaultValue>
+        <description>Step 10: Click on button productActions (productAction) - (Dynamic locator variable)</description>
+        <id>20c30755-cc15-48ff-b2c5-71098b883170</id>
+        <masked>false</masked>
+        <name>button_productActions_css_value_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Herringbone Pine TreeIndoor-Plants$500.00Add to basket'</defaultValue>
+        <description>Step 2: Hover over div basketActions (addToBasket) - (Dynamic locator variable)</description>
+        <id>61c9569a-b782-41f8-b83b-0ab631184b88</id>
+        <masked>false</masked>
+        <name>div_basketActions_InternalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'Herringbone Pine TreeIndoor-Plants$500.00Remove from basket'</defaultValue>
+        <description>Step 9: Hover over div basketActions (removeFromBasket) - (Dynamic locator variable)</description>
+        <id>c751a040-e782-40e0-968a-72ce689c3d18</id>
+        <masked>false</masked>
+        <name>div_basketActions_InternalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'123 Test Address'</defaultValue>
+        <description>Step 14: Enter shipping details and proceed to the next step. - (Input data variable)</description>
+        <id>3f943aa9-06c2-4043-906b-ad5e9a5099e6</id>
+        <masked>false</masked>
+        <name>input_addressPlaceholder</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 15: Input credit card details and confirm the checkout. - (Input data variable)</description>
+        <id>902800f6-c99b-4a49-a614-6903cd33a65d</id>
+        <masked>false</masked>
+        <name>input_cardNumber</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 14: Enter shipping details and proceed to the next step. - (Input data variable)</description>
+        <id>4a11c302-36be-4159-8455-87bfdb44db45</id>
+        <masked>false</masked>
+        <name>input_emailPlaceholder</name>
+    </variable>
+    <variable>
+        <defaultValue>'Test Name'</defaultValue>
+        <description>Step 14: Enter shipping details and proceed to the next step. - (Input data variable)</description>
+        <id>9a7071dc-fa93-40a0-bf82-b8e30e91fe6e</id>
+        <masked>false</masked>
+        <name>input_fullName</name>
+    </variable>
+    <variable>
+        <defaultValue>'Test Name'</defaultValue>
+        <description>Step 15: Input credit card details and confirm the checkout. - (Input data variable)</description>
+        <id>e9da62f6-009e-4614-9a96-e08c2be4b30e</id>
+        <masked>false</masked>
+        <name>input_namePlaceholder</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 15: Input credit card details and confirm the checkout. - (Input data variable)</description>
+        <id>bbf593b1-5b22-435a-8de1-dd61b9018d7a</id>
+        <masked>false</masked>
+        <name>input_passwordPlaceholder</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 14: Enter shipping details and proceed to the next step. - (Input data variable)</description>
+        <id>6f65a401-9237-4e6c-97f1-b0af7d531248</id>
+        <masked>false</masked>
+        <name>input_phonePlaceholder</name>
+    </variable>
+</TestCaseEntity>

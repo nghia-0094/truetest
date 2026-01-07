@@ -1,0 +1,34 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "name": "Navigate to https://www.saucedemo.com/",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Login",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Navigate to /",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Click on link shop3 -> Navigate to page '/shop'",
+      "sub_steps": [],
+      "action_id": "9b3890ff-430b-4149-9807-82ec025add3f",
+      "timestamp": 1735704531326,
+      "target_name": "link_shop3"
+    },
+    {
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "action_id": "1335a34f-81f9-4e87-ad88-2d3d0d82f20d",
+      "timestamp": 1735704531330,
+      "target_name": ""
+    }
+  ]
+}

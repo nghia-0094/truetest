@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>e0f4fdc6-cd47-4655-8e48-95a4bd847632</id>
+        </flow>
+    </customField>
+    <description>Navigate to home page, log in, and verify access to the shop page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC13-Login and Verify Shop Page Access</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>064148a9-12cd-4e49-bfba-a22a51758798</testCaseGuid>
+</TestCaseEntity>

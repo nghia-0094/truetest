@@ -1,0 +1,62 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "name": "Navigate to https://www.saucedemo.com/",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Login",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Navigate to / with params (a, b)",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Click on link shop",
+      "sub_steps": [],
+      "action_id": "7a771e46-c035-4b9b-82c4-6f624694a184",
+      "timestamp": 1735689600000,
+      "target_name": "link_shop"
+    },
+    {
+      "name": "Click on link shop2",
+      "sub_steps": [],
+      "action_id": "a247e27d-7389-484a-ad52-454b1e740b6a",
+      "timestamp": 1735689700000,
+      "target_name": "link_shop2"
+    },
+    {
+      "name": "Click on link references",
+      "sub_steps": [],
+      "action_id": "f3a43c84-655f-45e0-a1f7-7bcc697846ca",
+      "timestamp": 1735689800000,
+      "target_name": "link_references"
+    },
+    {
+      "name": "Drag image noImage and Drop to div display",
+      "sub_steps": [],
+      "action_id": "436aa7a3-504c-4962-95ec-2074ac0592ae",
+      "timestamp": 1735689900000,
+      "target_name": "image_noImage"
+    },
+    {
+      "name": "Drag image noImage and Drop to div display",
+      "sub_steps": [],
+      "action_id": "c7bfc1af-310c-4097-85f1-c710d19931b0",
+      "timestamp": 1735690100000,
+      "target_name": "image_noImage"
+    },
+    {
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "action_id": "49276f57-fe6c-44de-a3d5-6a4760bc27ec",
+      "timestamp": 1735690300000,
+      "target_name": ""
+    }
+  ]
+}

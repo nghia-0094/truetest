@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>3812990b-9dff-478a-b930-2035905d42ea</id>
+        </flow>
+    </customField>
+    <description>Login, select a product, add it to the basket, enter shipping and payment details, and confirm the checkout process.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC7-Complete Checkout Process with Product Selection and Payment</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>34215d3f-f966-477c-81f5-72d7b4bd4410</testCaseGuid>
+    <variable>
+        <defaultValue>'Chamaedorea elegansIndoor-Plants$300.00Add to basket'</defaultValue>
+        <description>Step 5: Hover over div basketActions (addToBasket4) - (Dynamic locator variable)</description>
+        <id>9f0d16f1-ca9d-483d-ac99-302508a21ea7</id>
+        <masked>false</masked>
+        <name>div_basketActions_InternalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'123 Test Address'</defaultValue>
+        <description>Step 10: Enter input value in input addressPlaceholder - (Input data variable)</description>
+        <id>75323096-c305-4a38-9787-26594fd01ae9</id>
+        <masked>false</masked>
+        <name>input_addressPlaceholder</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 9: Enter input value in input emailPlaceholder - (Input data variable)</description>
+        <id>00ce3a18-dcdc-4ce1-9979-90c895eb7c9c</id>
+        <masked>false</masked>
+        <name>input_emailPlaceholder</name>
+    </variable>
+    <variable>
+        <defaultValue>'Test Name'</defaultValue>
+        <description>Step 8: Enter input value in input fullName - (Input data variable)</description>
+        <id>4c45c5be-7080-4cb0-8176-3dfb392f2b2d</id>
+        <masked>false</masked>
+        <name>input_fullName</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{phone}}'</defaultValue>
+        <description>Step 11: Enter input value in input phonePlaceholder - (Input data variable)</description>
+        <id>bad89a97-524b-418e-8af6-154ea9931fb2</id>
+        <masked>false</masked>
+        <name>input_phonePlaceholder</name>
+    </variable>
+</TestCaseEntity>

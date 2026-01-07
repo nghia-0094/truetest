@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>f750a25d-857e-4ade-9582-319aa1e84dce</id>
+        </flow>
+    </customField>
+    <description>Login, add a product to the basket, enter shipping and payment details, and confirm the checkout process.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC5-Add Product to Basket and Complete Checkout</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>530370ea-4d08-451c-9c5c-fe8f5cb6086e</testCaseGuid>
+    <variable>
+        <defaultValue>'123 Test Address'</defaultValue>
+        <description>Step 10: Enter shipping details and proceed to the next step. - (Input data variable)</description>
+        <id>919e3bc3-39e8-4ff5-aaf7-958069883e56</id>
+        <masked>false</masked>
+        <name>input_addressPlaceholder</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 11: Input credit card details and confirm the checkout. - (Input data variable)</description>
+        <id>e1725723-c07c-4574-89dd-91dfde77eacd</id>
+        <masked>false</masked>
+        <name>input_cardNumber</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 10: Enter shipping details and proceed to the next step. - (Input data variable)</description>
+        <id>c9ce74c5-591f-49da-be1a-3412643201ac</id>
+        <masked>false</masked>
+        <name>input_emailPlaceholder</name>
+    </variable>
+    <variable>
+        <defaultValue>'Test Name'</defaultValue>
+        <description>Step 10: Enter shipping details and proceed to the next step. - (Input data variable)</description>
+        <id>5b8358d0-43f8-4a06-b1f0-9acbefa8d625</id>
+        <masked>false</masked>
+        <name>input_fullName</name>
+    </variable>
+    <variable>
+        <defaultValue>'Test Name'</defaultValue>
+        <description>Step 11: Input credit card details and confirm the checkout. - (Input data variable)</description>
+        <id>d489e4c6-00a0-4e2e-b473-376190865a70</id>
+        <masked>false</masked>
+        <name>input_namePlaceholder</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 11: Input credit card details and confirm the checkout. - (Input data variable)</description>
+        <id>e44a0171-999a-4f90-94ec-488dca6a77f7</id>
+        <masked>false</masked>
+        <name>input_passwordPlaceholder</name>
+    </variable>
+    <variable>
+        <defaultValue>'+63 1234 567890'</defaultValue>
+        <description>Step 10: Enter shipping details and proceed to the next step. - (Input data variable)</description>
+        <id>6cd6e408-c68d-4e69-8551-537dd5d70b54</id>
+        <masked>false</masked>
+        <name>input_phonePlaceholder</name>
+    </variable>
+    <variable>
+        <defaultValue>'Philodendron Imperial Red'</defaultValue>
+        <description>Step 5: Enter input value in input searchProduct - (Input data variable)</description>
+        <id>4f3317ab-0e4a-4041-9eca-7d036180cda3</id>
+        <masked>false</masked>
+        <name>input_searchProduct</name>
+    </variable>
+</TestCaseEntity>

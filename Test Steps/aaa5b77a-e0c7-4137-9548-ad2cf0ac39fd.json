@@ -1,0 +1,171 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "name": "Navigate to /",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Click on link signIn -> Navigate to page '/signin'",
+      "sub_steps": [],
+      "action_id": "657d1c31-83c0-4772-aebc-c510390ec32a",
+      "timestamp": 1735704375023,
+      "target_name": "link_signIn"
+    },
+    {
+      "name": "Login",
+      "sub_steps": [],
+      "action_id": "8fe44959-2b20-4117-9ca9-547c4f982dee",
+      "timestamp": 1735704376264,
+      "target_name": ""
+    },
+    {
+      "name": "Click on link shop -> Navigate to page '/shop'",
+      "sub_steps": [],
+      "action_id": "2605c4f2-ec62-472d-bcbe-ab9b0e7d62fc",
+      "timestamp": 1735704377384,
+      "target_name": "link_shop"
+    },
+    {
+      "name": "Hover over div addToBasket3",
+      "sub_steps": [],
+      "action_id": "e19894c6-3721-41b3-963a-e3a8379a6261",
+      "timestamp": 1735704377864,
+      "target_name": "div_addToBasket3"
+    },
+    {
+      "name": "Click on header productName",
+      "sub_steps": [],
+      "action_id": "76d5142f-7f96-4aa7-8d56-fcf26e116501",
+      "timestamp": 1735704377880,
+      "target_name": "header_productName"
+    },
+    {
+      "name": "Choose product size and color then add to basket.",
+      "sub_steps": [
+        {
+          "name": "Click on div selectSize",
+          "action_id": "14b1e68f-1013-4b2b-8bdf-db637ba55638",
+          "timestamp": 1735704405661,
+          "target_name": "div_selectSize"
+        },
+        {
+          "name": "Click on div productSize",
+          "action_id": "eb11bb25-1825-4b8b-b3e4-e42b9b37061d",
+          "timestamp": 1735704405719,
+          "target_name": "div_productSize"
+        },
+        {
+          "name": "Click on div chooseColor",
+          "action_id": "47240767-fcf8-43eb-87a9-9aa979f961f7",
+          "timestamp": 1735704405785,
+          "target_name": "div_chooseColor"
+        },
+        {
+          "name": "Click on button addToBasket",
+          "action_id": "eea31415-71f6-4048-a259-490b76c58356",
+          "timestamp": 1735704407866,
+          "target_name": "button_addToBasket"
+        },
+        {
+          "name": "Click on span shoppingButton",
+          "action_id": "2f5cac8b-405f-47c7-99b7-b4ac53b37860",
+          "timestamp": 1735704408973,
+          "target_name": "span_shoppingButton"
+        },
+        {
+          "name": "Click on button checkOut -> Navigate to page '/checkout/*'",
+          "action_id": "50ea93c3-89d6-457b-8c91-ea5d79a439c8",
+          "timestamp": 1735704409302,
+          "target_name": "button_checkOut"
+        },
+        {
+          "name": "Click on button nextStep",
+          "action_id": "ffbd5b0a-8ed1-459c-aac2-62981cbc0221",
+          "timestamp": 1735704410495,
+          "target_name": "button_nextStep"
+        }
+      ],
+      "action_id": "14b1e68f-1013-4b2b-8bdf-db637ba55638",
+      "timestamp": 1735704405661,
+      "target_name": "div_selectSize"
+    },
+    {
+      "name": "Enter shipping details and proceed to the next step.",
+      "sub_steps": [
+        {
+          "name": "Enter input value in input fullName",
+          "action_id": "d17dfb6b-ebca-45b7-b1f6-091a039b69be",
+          "timestamp": 1735704466237,
+          "target_name": "input_fullName"
+        },
+        {
+          "name": "Enter input value in input emailPlaceholder",
+          "action_id": "cb13b54c-96d7-469d-85aa-a779a173de2f",
+          "timestamp": 1735704466295,
+          "target_name": "input_emailPlaceholder"
+        },
+        {
+          "name": "Enter input value in input addressPlaceholder",
+          "action_id": "3593f9a6-554b-4617-8c21-65c8700c4adb",
+          "timestamp": 1735704466370,
+          "target_name": "input_addressPlaceholder"
+        },
+        {
+          "name": "Enter input value in input phonePlaceholder",
+          "action_id": "460e6a8c-bf3f-4ed6-a1ca-468af35f8243",
+          "timestamp": 1735704466573,
+          "target_name": "input_phonePlaceholder"
+        },
+        {
+          "name": "Click on header shippingInfo",
+          "action_id": "78c20b60-f97d-482e-8492-ae9404dee14a",
+          "timestamp": 1735704466575,
+          "target_name": "header_shippingInfo"
+        },
+        {
+          "name": "Click on input shippingOption",
+          "action_id": "a44e8917-7cf7-47d6-be59-fab36c09c60e",
+          "timestamp": 1735704466577,
+          "target_name": "input_shippingOption"
+        },
+        {
+          "name": "Click on button nextStep2",
+          "action_id": "d9fa6223-a218-4881-9abf-8ab78e2a1e30",
+          "timestamp": 1735704466725,
+          "target_name": "button_nextStep2"
+        }
+      ],
+      "action_id": "d17dfb6b-ebca-45b7-b1f6-091a039b69be",
+      "timestamp": 1735704466237,
+      "target_name": "input_fullName"
+    },
+    {
+      "name": "Click on span paymentPrompt",
+      "sub_steps": [],
+      "action_id": "a5f16eaa-7a20-44bb-ac69-ec500387bb98",
+      "timestamp": 1735704384574,
+      "target_name": "span_paymentPrompt"
+    },
+    {
+      "name": "Click on input paymentPrompt",
+      "sub_steps": [],
+      "action_id": "a12f7ba7-dd45-42cd-ade6-b081a40a21d1",
+      "timestamp": 1735704384577,
+      "target_name": "input_paymentPrompt"
+    },
+    {
+      "name": "Click on button confirmCheckout -> Navigate to page ''",
+      "sub_steps": [],
+      "action_id": "27cfb590-c781-4dea-890a-907e41390b36",
+      "timestamp": 1735704384612,
+      "target_name": "button_confirmCheckout"
+    },
+    {
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "target_name": ""
+    }
+  ]
+}

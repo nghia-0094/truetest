@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>9c7f6aa5-92bc-4a85-bf41-219884c71f25</id>
+        </flow>
+    </customField>
+    <description>Login, navigate to the shop, manage product actions in the basket, proceed to checkout, enter shipping and payment details, and confirm the checkout.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC4-Verify Checkout Process with Product Actions After Signing In</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>bb77d1bd-621d-4ac1-ae62-3154aabe0eb6</testCaseGuid>
+    <variable>
+        <defaultValue>'[class=\\"css-vbgp86-SkeletonTheme\\"]:nth-child(3) [class=\\"product-card-button\\\\ button-small\\\\ button\\\\ button-block\\\\ \\"]'</defaultValue>
+        <description>Step 9: Close basket, manage actions, and proceed to checkout. - (Dynamic locator variable)</description>
+        <id>8732cab5-7bed-4dc1-b602-22eb49365fc9</id>
+        <masked>false</masked>
+        <name>button_productActions_css_value</name>
+    </variable>
+    <variable>
+        <defaultValue>'Herringbone Pine TreeIndoor-Plants$500.00Add to basket'</defaultValue>
+        <description>Step 5: Hover over div basketActions (addToBasket) - (Dynamic locator variable)</description>
+        <id>50d7f6dd-f874-4598-b65e-85109d6eaf2c</id>
+        <masked>false</masked>
+        <name>div_basketActions_InternalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'Wealth TreeStone-Lotus$600.00Add to basket'</defaultValue>
+        <description>Step 9: Close basket, manage actions, and proceed to checkout. - (Dynamic locator variable)</description>
+        <id>6bef97df-fa10-4907-8618-081551f4eed3</id>
+        <masked>false</masked>
+        <name>div_basketActions_InternalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'123 Test Address'</defaultValue>
+        <description>Step 10: Enter shipping details and proceed to the next step. - (Input data variable)</description>
+        <id>1486b862-5d89-455e-a11c-2bddee085ea9</id>
+        <masked>false</masked>
+        <name>input_addressPlaceholder</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 11: Input credit card details and confirm the checkout. - (Input data variable)</description>
+        <id>d6c6082a-8edf-4392-89bc-88183653ae96</id>
+        <masked>false</masked>
+        <name>input_cardNumber</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 10: Enter shipping details and proceed to the next step. - (Input data variable)</description>
+        <id>2c5df888-7745-4d31-b582-db7cca4c3110</id>
+        <masked>false</masked>
+        <name>input_emailPlaceholder</name>
+    </variable>
+    <variable>
+        <defaultValue>'Test Name'</defaultValue>
+        <description>Step 10: Enter shipping details and proceed to the next step. - (Input data variable)</description>
+        <id>99ae0dae-663b-4a40-89dd-a5dfc6c8a229</id>
+        <masked>false</masked>
+        <name>input_fullName</name>
+    </variable>
+    <variable>
+        <defaultValue>'Test Name'</defaultValue>
+        <description>Step 11: Input credit card details and confirm the checkout. - (Input data variable)</description>
+        <id>e38861cd-bdf0-4a6a-977a-84a52578e22c</id>
+        <masked>false</masked>
+        <name>input_namePlaceholder</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 11: Input credit card details and confirm the checkout. - (Input data variable)</description>
+        <id>81002914-10cb-4fef-9b66-03d65b3f3108</id>
+        <masked>false</masked>
+        <name>input_passwordPlaceholder</name>
+    </variable>
+    <variable>
+        <defaultValue>'+63 1234 567890'</defaultValue>
+        <description>Step 10: Enter shipping details and proceed to the next step. - (Input data variable)</description>
+        <id>c37a2807-cb78-41cb-8c86-7878e6aca2bb</id>
+        <masked>false</masked>
+        <name>input_phonePlaceholder</name>
+    </variable>
+    <variable>
+        <defaultValue>'close'</defaultValue>
+        <description>Step 8: Click on span quantityControl (close) - (Dynamic locator variable)</description>
+        <id>96e76158-39e7-47d5-9f13-4c3f362183de</id>
+        <masked>false</masked>
+        <name>span_quantityControl_InternalRoleButtonName</name>
+    </variable>
+    <variable>
+        <defaultValue>'[class=\\"anticon\\\\ anticon-close\\"] &gt; svg'</defaultValue>
+        <description>Step 8: Click on span quantityControl (close) - (Dynamic locator variable)</description>
+        <id>fac56a68-fa90-45bf-a912-27c155ad0288</id>
+        <masked>false</masked>
+        <name>span_quantityControl_css_value</name>
+    </variable>
+</TestCaseEntity>
