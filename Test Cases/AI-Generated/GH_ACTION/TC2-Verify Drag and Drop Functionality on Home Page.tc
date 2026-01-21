@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>d342c70b-d2a1-48c7-98d8-c310bad7d9d3</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, perform drag and drop actions in the references section, and verify the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC2-Verify Drag and Drop Functionality on Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>0861f8dc-1299-45db-9c13-8b78c77f3c24</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>8c30a8ee-acdf-499e-b83d-2a3e1a5f004c</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/GH_ACTION/TC2-Verify Drag and Drop Functionality on Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Step 1: Navigate to / with params (a, b) - (Dynamic URL variable)</description>
+        <id>6515a7d1-e122-4221-8813-8d5399660ca0</id>
+        <masked>false</masked>
+        <name>var_a</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Step 1: Navigate to / with params (a, b) - (Dynamic URL variable)</description>
+        <id>de559ab8-1c88-49ba-a88f-7b83a093708d</id>
+        <masked>false</masked>
+        <name>var_b</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>8c30a8ee-acdf-499e-b83d-2a3e1a5f004c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>var_a</value>
+        <variableId>6515a7d1-e122-4221-8813-8d5399660ca0</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>8c30a8ee-acdf-499e-b83d-2a3e1a5f004c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>var_b</value>
+        <variableId>de559ab8-1c88-49ba-a88f-7b83a093708d</variableId>
+    </variableLinks>
+</TestCaseEntity>

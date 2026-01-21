@@ -1,368 +1,373 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-1,Verify Navigation and Display Functionality on Home Page,"Login to the home page, navigate through shop links, perform drag and drop actions, and verify the home page display.","Step 1: Navigate to https://www.saucedemo.com/
-Step 2: Login
-Step 3: Navigate to / with params (a, b)
-Step 4: Click on link shop
-Step 5: Click on link shop2
-Step 6: Click on link references
-Step 7: Drag image noImage and Drop to div display
-Step 8: Drag image noImage and Drop to div display
-Step 9: Take full page screenshot as checkpoint
+2,Verify Drag and Drop Functionality on Home Page,"Navigate to the home page, perform drag and drop actions in the references section, and verify the home page.","Step 1: Navigate to / with params (a, b)
+Step 2: Click on link object
+Step 3: Navigate to references and perform drag and drop actions
+	- Step 1: Click on link object7
+	- Step 2: Click on link navbtnReferences
+	- Step 3: Drag img thumbnail and Drop to div object2
+	- Step 4: Drag img thumbnail and Drop to div object2
+Step 4: Take full page screenshot as checkpoint
 ",High,NEW
-11,Verify Checkout Process After Signing In,"Login and navigate to the shop. Perform actions on the basket, proceed to checkout, enter shipping details, and confirm the checkout.","Step 1: Navigate to /
-Step 2: Click on link signIn -> Navigate to page '/signin'
+1,Verify Drag and Drop Functionality without Link Click,"Navigate to the home page, perform drag and drop actions in the references section, and verify the home page.","Step 1: Navigate to / with params (a, b)
+Step 2: Navigate to references and perform drag and drop actions
+	- Step 1: Click on link object7
+	- Step 2: Click on link navbtnReferences
+	- Step 3: Drag img thumbnail and Drop to div object2
+	- Step 4: Drag img thumbnail and Drop to div object2
+Step 3: Take full page screenshot as checkpoint
+",High,NEW
+12,Verify User Login and Checkout Process with Dynamic Elements,"Navigate to the home page, login, interact with dynamic elements, proceed to checkout, fill out the form, and verify the home page.","Step 1: Navigate to /
+Step 2: Click on link object2 -> Navigate to page '/signin'
 Step 3: Login
-Step 4: Click on link shop -> Navigate to page '/shop'
-Step 5: Hover over div basketActions (addToBasket)
-Step 6: Click on button productActions (productAction)
-Step 7: Click on span shopping
-Step 8: Click on button checkOut -> Navigate to page '/checkout/*'
-Step 9: Click on button nextStep
-Step 10: Enter shipping details and proceed to the next step.
-	- Step 1: Enter input value in input fullName
-	- Step 2: Enter input value in input emailPlaceholder
-	- Step 3: Enter input value in input addressPlaceholder
-	- Step 4: Enter input value in input phonePlaceholder
-	- Step 5: Click on header shippingInfo
-	- Step 6: Click on input shippingOption
-	- Step 7: Click on button nextStep2
-Step 11: Click on span paymentPrompt
-Step 12: Click on input paymentPrompt
-Step 13: Click on button confirmCheckout -> Navigate to page ''
+Step 4: Click on link object -> Navigate to page '/shop'
+Step 5: Hover over div dynamicObject (object)
+Step 6: Click on button dynamicObject (object)
+Step 7: Click on span object
+Step 8: Click on button object2 -> Navigate to page '/checkout/*'
+Step 9: Click on button object
+Step 10: Input multiple fields and click to submit the form
+	- Step 1: Enter input value in input object2
+	- Step 2: Enter input value in input object3
+	- Step 3: Enter input value in input object4
+	- Step 4: Enter input value in input object5
+	- Step 5: Click on h5 object
+	- Step 6: Click on input object6
+	- Step 7: Click on button object3
+Step 11: Click on span object
+Step 12: Click on input object
+Step 13: Click on button object2 -> Navigate to page ''
 Step 14: Take full page screenshot as checkpoint
 ",High,NEW
-12,Verify Checkout Process After Signing Up,"Sign up and login, navigate to the shop, manage basket actions, proceed to checkout, enter shipping and payment details, and confirm the checkout.","Step 1: Navigate to /
-Step 2: Click on link signUp -> Navigate to page '/signup'
-Step 3: Login
-Step 4: Click on link shop -> Navigate to page '/shop'
-Step 5: Hover over div basketActions (addToBasket)
-Step 6: Click on button productActions (productAction)
-Step 7: Click on span shopping
-Step 8: Click on button quantityControl (close)
-Step 9: Close basket, manage actions, and proceed to checkout.
-	- Step 1: Click on span close2
-	- Step 2: Hover over div basketActions
-	- Step 3: Click on button productActions
-	- Step 4: Click on span shopping
-	- Step 5: Click on button checkOut -> Navigate to page '/checkout/*'
-	- Step 6: Click on button nextStep
-Step 10: Enter shipping details and proceed to the next step.
-	- Step 1: Enter input value in input fullName
-	- Step 2: Enter input value in input emailPlaceholder
-	- Step 3: Enter input value in input addressPlaceholder
-	- Step 4: Enter input value in input phonePlaceholder
-	- Step 5: Click on header shippingInfo
-	- Step 6: Click on input shippingOption
-	- Step 7: Click on button nextStep2
-Step 11: Input credit card details and confirm the checkout.
-	- Step 1: Click on div creditCardPayment
-	- Step 2: Click on input creditCard
-	- Step 3: Enter input value in input namePlaceholder
-	- Step 4: Enter input value in input cardNumber
-	- Step 5: Enter input value in input passwordPlaceholder
-	- Step 6: Click on button confirmCheckout
-Step 12: Take full page screenshot as checkpoint
+14,Verify Access to Shop Page from Home,Navigate to home and access the shop page. Verify that the shop page loads correctly.,"Step 1: Navigate to /
+Step 2: Click on link object4 -> Navigate to page '/shop'
+Step 3: Take full page screenshot as checkpoint
 ",High,NEW
-4,Verify Checkout Process with Product Actions After Signing In,"Login, navigate to the shop, manage product actions in the basket, proceed to checkout, enter shipping and payment details, and confirm the checkout.","Step 1: Navigate to /
-Step 2: Click on link signIn -> Navigate to page '/signin'
-Step 3: Login
-Step 4: Click on link shop -> Navigate to page '/shop'
-Step 5: Hover over div basketActions (addToBasket)
-Step 6: Click on button productAction2
-Step 7: Click on span shopping
-Step 8: Click on span quantityControl (close)
-Step 9: Close basket, manage actions, and proceed to checkout.
-	- Step 1: Click on span close2
-	- Step 2: Hover over div basketActions
-	- Step 3: Click on button productActions
-	- Step 4: Click on span shopping
-	- Step 5: Click on button checkOut -> Navigate to page '/checkout/*'
-	- Step 6: Click on button nextStep
-Step 10: Enter shipping details and proceed to the next step.
-	- Step 1: Enter input value in input fullName
-	- Step 2: Enter input value in input emailPlaceholder
-	- Step 3: Enter input value in input addressPlaceholder
-	- Step 4: Enter input value in input phonePlaceholder
-	- Step 5: Click on header shippingInfo
-	- Step 6: Click on input shippingOption
-	- Step 7: Click on button nextStep2
-Step 11: Input credit card details and confirm the checkout.
-	- Step 1: Click on div creditCardPayment
-	- Step 2: Click on input creditCard
-	- Step 3: Enter input value in input namePlaceholder
-	- Step 4: Enter input value in input cardNumber
-	- Step 5: Enter input value in input passwordPlaceholder
-	- Step 6: Click on button confirmCheckout
-Step 12: Take full page screenshot as checkpoint
-",High,NEW
-9,Complete Checkout Process from Sign In to Home Page,"Sign in, navigate to shop, select a product, add it to the basket, enter shipping and payment details, and confirm checkout.","Step 1: Navigate to /
-Step 2: Click on link signIn -> Navigate to page '/signin'
-Step 3: Login
-Step 4: Click on link shop -> Navigate to page '/shop'
-Step 5: Hover over div addToBasket3
-Step 6: Click on header productName
-Step 7: Choose product size and color then add to basket.
-	- Step 1: Click on div selectSize
-	- Step 2: Click on div productSize
-	- Step 3: Click on div chooseColor
-	- Step 4: Click on button addToBasket
-	- Step 5: Click on span shoppingButton
-	- Step 6: Click on button checkOut -> Navigate to page '/checkout/*'
-	- Step 7: Click on button nextStep
-Step 8: Enter shipping details and proceed to the next step.
-	- Step 1: Enter input value in input fullName
-	- Step 2: Enter input value in input emailPlaceholder
-	- Step 3: Enter input value in input addressPlaceholder
-	- Step 4: Enter input value in input phonePlaceholder
-	- Step 5: Click on header shippingInfo
-	- Step 6: Click on input shippingOption
-	- Step 7: Click on button nextStep2
-Step 9: Input credit card details and confirm the checkout.
-	- Step 1: Click on div creditCardPayment
-	- Step 2: Click on input creditCard
-	- Step 3: Enter input value in input namePlaceholder
-	- Step 4: Enter input value in input cardNumber
-	- Step 5: Enter input value in input passwordPlaceholder
-	- Step 6: Click on button confirmCheckout
+7,Search and Checkout Process from Home,"Begin at the home page, log in, perform a search, select a product, and complete the checkout process. Verify the return to the home page.","Step 1: Navigate to /
+Step 2: Click on link object2 -> Navigate to page '/signin'
+Step 3: Login -> Navigate to page '/search/*'
+Step 4: Hover over div object
+Step 5: Enter input value in input object
+Step 6: Click on h5 object
+Step 7: Navigate through divs and complete the checkout process
+	- Step 1: Click on div object
+	- Step 2: Click on div object2
+	- Step 3: Click on div object3
+	- Step 4: Click on button object
+	- Step 5: Click on span object
+	- Step 6: Click on button object2 -> Navigate to page '/checkout/*'
+	- Step 7: Click on button object
+Step 8: Input multiple fields and click to submit the form
+	- Step 1: Enter input value in input object2
+	- Step 2: Enter input value in input object3
+	- Step 3: Enter input value in input object4
+	- Step 4: Enter input value in input object5
+	- Step 5: Click on h5 object
+	- Step 6: Click on input object6
+	- Step 7: Click on button object3
+Step 9: Select a div and input data before clicking to submit
+	- Step 1: Click on div object4
+	- Step 2: Click on input object7
+	- Step 3: Enter input value in input object8
+	- Step 4: Enter input value in input object9
+	- Step 5: Enter input value in input object10
+	- Step 6: Click on button object2
 Step 10: Take full page screenshot as checkpoint
 ",High,NEW
-13,Login and Verify Shop Page Access,"Navigate to home page, log in, and verify access to the shop page.","Step 1: Navigate to https://www.saucedemo.com/
-Step 2: Login
-Step 3: Navigate to /
-Step 4: Click on link shop3 -> Navigate to page '/shop'
-Step 5: Take full page screenshot as checkpoint
-",High,NEW
-8,Checkout Process with Product Selection and Payment Confirmation,"Sign in, select a product, add it to the basket, enter shipping and payment details, and confirm the checkout.","Step 1: Navigate to /
-Step 2: Click on link signIn -> Navigate to page '/signin'
+10,Complete Checkout Process After Navigating Products,"Navigate to home, sign in, shop, hover over products, and complete the checkout process. Verify return to home.","Step 1: Navigate to /
+Step 2: Click on link object2 -> Navigate to page '/signin'
 Step 3: Login
-Step 4: Click on link shop -> Navigate to page '/shop'
-Step 5: Hover over div addToBasket3
-Step 6: Click on header productName
-Step 7: Choose product size and color then add to basket.
-	- Step 1: Click on div selectSize
-	- Step 2: Click on div productSize
-	- Step 3: Click on div chooseColor
-	- Step 4: Click on button addToBasket
-	- Step 5: Click on span shoppingButton
-	- Step 6: Click on button checkOut -> Navigate to page '/checkout/*'
-	- Step 7: Click on button nextStep
-Step 8: Enter shipping details and proceed to the next step.
-	- Step 1: Enter input value in input fullName
-	- Step 2: Enter input value in input emailPlaceholder
-	- Step 3: Enter input value in input addressPlaceholder
-	- Step 4: Enter input value in input phonePlaceholder
-	- Step 5: Click on header shippingInfo
-	- Step 6: Click on input shippingOption
-	- Step 7: Click on button nextStep2
-Step 9: Click on span paymentPrompt
-Step 10: Click on input paymentPrompt
-Step 11: Click on button confirmCheckout -> Navigate to page ''
+Step 4: Click on link object -> Navigate to page '/shop'
+Step 5: Hover over div object4
+Step 6: Click on h5 object
+Step 7: Navigate through divs and complete the checkout process
+	- Step 1: Click on div object
+	- Step 2: Click on div object2
+	- Step 3: Click on div object3
+	- Step 4: Click on button object
+	- Step 5: Click on span object
+	- Step 6: Click on button object2 -> Navigate to page '/checkout/*'
+	- Step 7: Click on button object
+Step 8: Input multiple fields and click to submit the form
+	- Step 1: Enter input value in input object2
+	- Step 2: Enter input value in input object3
+	- Step 3: Enter input value in input object4
+	- Step 4: Enter input value in input object5
+	- Step 5: Click on h5 object
+	- Step 6: Click on input object6
+	- Step 7: Click on button object3
+Step 9: Select a div and input data before clicking to submit
+	- Step 1: Click on div object4
+	- Step 2: Click on input object7
+	- Step 3: Enter input value in input object8
+	- Step 4: Enter input value in input object9
+	- Step 5: Enter input value in input object10
+	- Step 6: Click on button object2
+Step 10: Take full page screenshot as checkpoint
+",Medium,NEW
+6,User Login and Form Submission with Navigation,"Navigate to home, sign in, and perform a search. Submit a form with multiple fields and verify navigation back to the home page.","Step 1: Navigate to /
+Step 2: Click on link object2 -> Navigate to page '/signin'
+Step 3: Login -> Navigate to page '/search/*'
+Step 4: Hover over div object
+Step 5: Enter input value in input object
+Step 6: Click on button object
+Step 7: Click on span object
+Step 8: Click on button object2 -> Navigate to page '/checkout/*'
+Step 9: Click on button object
+Step 10: Input multiple fields and click to submit the form
+	- Step 1: Enter input value in input object2
+	- Step 2: Enter input value in input object3
+	- Step 3: Enter input value in input object4
+	- Step 4: Enter input value in input object5
+	- Step 5: Click on h5 object
+	- Step 6: Click on input object6
+	- Step 7: Click on button object3
+Step 11: Select a div and input data before clicking to submit
+	- Step 1: Click on div object4
+	- Step 2: Click on input object7
+	- Step 3: Enter input value in input object8
+	- Step 4: Enter input value in input object9
+	- Step 5: Enter input value in input object10
+	- Step 6: Click on button object2
 Step 12: Take full page screenshot as checkpoint
-",High,NEW
-2,Checkout Process from Basket Actions to Home Page,"Navigate to shop, perform basket actions, sign in, and complete the checkout process with shipping and payment details.","Step 1: Navigate to /shop
-Step 2: Hover over div basketActions (addToBasket)
-Step 3: Click on button productActions (productAction)
-Step 4: Click on span shopping
-Step 5: Click on button checkOut
-Step 6: Click on button signInToCheckout -> Navigate to page '/signin'
+",Medium,NEW
+11,User Login and Checkout Process with Dynamic Elements,"Navigate to home, sign in, and shop. Interact with dynamic elements, submit a form, and verify navigation back to the home page.","Step 1: Navigate to /
+Step 2: Click on link object2 -> Navigate to page '/signin'
+Step 3: Login
+Step 4: Click on link object -> Navigate to page '/shop'
+Step 5: Hover over div dynamicObject (object2)
+Step 6: Click on button dynamicObject (object)
+Step 7: Click on span object
+Step 8: Click on button object2 -> Navigate to page '/checkout/*'
+Step 9: Click on button object
+Step 10: Input multiple fields and click to submit the form
+	- Step 1: Enter input value in input object2
+	- Step 2: Enter input value in input object3
+	- Step 3: Enter input value in input object4
+	- Step 4: Enter input value in input object5
+	- Step 5: Click on h5 object
+	- Step 6: Click on input object6
+	- Step 7: Click on button object3
+Step 11: Select a div and input data before clicking to submit
+	- Step 1: Click on div object4
+	- Step 2: Click on input object7
+	- Step 3: Enter input value in input object8
+	- Step 4: Enter input value in input object9
+	- Step 5: Enter input value in input object10
+	- Step 6: Click on button object2
+Step 12: Take full page screenshot as checkpoint
+",Medium,NEW
+13,Verify User Signup and Checkout Process with Dynamic Elements,"Navigate to the home page, signup, interact with dynamic elements, proceed to checkout, fill out the form, and verify the home page.","Step 1: Navigate to /
+Step 2: Click on link dynamicObject (object3) -> Navigate to page '/signup'
+Step 3: Login
+Step 4: Click on link object -> Navigate to page '/shop'
+Step 5: Hover over div dynamicObject (object2)
+Step 6: Click on button dynamicObject (object)
+Step 7: Click on span object
+Step 8: Click on button dynamicObject (object3)
+Step 9: Engage with dynamic elements and proceed to checkout
+	- Step 1: Click on span object6
+	- Step 2: Hover over div dynamicObject
+	- Step 3: Click on button dynamicObject
+	- Step 4: Click on span object
+	- Step 5: Click on button object2 -> Navigate to page '/checkout/*'
+	- Step 6: Click on button object
+Step 10: Input multiple fields and click to submit the form
+	- Step 1: Enter input value in input object2
+	- Step 2: Enter input value in input object3
+	- Step 3: Enter input value in input object4
+	- Step 4: Enter input value in input object5
+	- Step 5: Click on h5 object
+	- Step 6: Click on input object6
+	- Step 7: Click on button object3
+Step 11: Select a div and input data before clicking to submit
+	- Step 1: Click on div object4
+	- Step 2: Click on input object7
+	- Step 3: Enter input value in input object8
+	- Step 4: Enter input value in input object9
+	- Step 5: Enter input value in input object10
+	- Step 6: Click on button object2
+Step 12: Take full page screenshot as checkpoint
+",Low,NEW
+5,Engage with Dynamic Elements and Complete Checkout Process,"Navigate to home, sign in, shop, interact with dynamic elements, and complete the checkout process. Verify return to home.","Step 1: Navigate to /
+Step 2: Click on link object2 -> Navigate to page '/signin'
+Step 3: Login
+Step 4: Click on link object -> Navigate to page '/shop'
+Step 5: Hover over div dynamicObject (object2)
+Step 6: Click on button dynamicObject (object)
+Step 7: Click on span object
+Step 8: Click on span dynamicObject (object2)
+Step 9: Engage with dynamic elements and proceed to checkout
+	- Step 1: Click on span object6
+	- Step 2: Hover over div dynamicObject
+	- Step 3: Click on button dynamicObject
+	- Step 4: Click on span object
+	- Step 5: Click on button object2 -> Navigate to page '/checkout/*'
+	- Step 6: Click on button object
+Step 10: Input multiple fields and click to submit the form
+	- Step 1: Enter input value in input object2
+	- Step 2: Enter input value in input object3
+	- Step 3: Enter input value in input object4
+	- Step 4: Enter input value in input object5
+	- Step 5: Click on h5 object
+	- Step 6: Click on input object6
+	- Step 7: Click on button object3
+Step 11: Select a div and input data before clicking to submit
+	- Step 1: Click on div object4
+	- Step 2: Click on input object7
+	- Step 3: Enter input value in input object8
+	- Step 4: Enter input value in input object9
+	- Step 5: Enter input value in input object10
+	- Step 6: Click on button object2
+Step 12: Take full page screenshot as checkpoint
+",Low,NEW
+3,Complete Checkout Process from Shop Page to Home,"Navigate to the shop, interact with dynamic elements, log in, and complete the checkout process. Verify the return to the home page.","Step 1: Navigate to /shop
+Step 2: Hover over div object5
+Step 3: Click on button dynamicObject (object)
+Step 4: Click on span object
+Step 5: Click on button object2
+Step 6: Click on button object5 -> Navigate to page '/signin'
 Step 7: Login
-Step 8: Click on link shop -> Navigate to page '/shop'
-Step 9: Hover over div basketActions (removeFromBasket)
-Step 10: Click on button productActions (productAction)
-Step 11: Click on span shopping
-Step 12: Click on button checkOut -> Navigate to page '/checkout/*'
-Step 13: Click on button nextStep
-Step 14: Enter shipping details and proceed to the next step.
-	- Step 1: Enter input value in input fullName
-	- Step 2: Enter input value in input emailPlaceholder
-	- Step 3: Enter input value in input addressPlaceholder
-	- Step 4: Enter input value in input phonePlaceholder
-	- Step 5: Click on header shippingInfo
-	- Step 6: Click on input shippingOption
-	- Step 7: Click on button nextStep2
-Step 15: Input credit card details and confirm the checkout.
-	- Step 1: Click on div creditCardPayment
-	- Step 2: Click on input creditCard
-	- Step 3: Enter input value in input namePlaceholder
-	- Step 4: Enter input value in input cardNumber
-	- Step 5: Enter input value in input passwordPlaceholder
-	- Step 6: Click on button confirmCheckout
+Step 8: Click on link object -> Navigate to page '/shop'
+Step 9: Hover over div dynamicObject (object6)
+Step 10: Click on button dynamicObject (object)
+Step 11: Click on span object
+Step 12: Click on button object2 -> Navigate to page '/checkout/*'
+Step 13: Click on button object
+Step 14: Input multiple fields and click to submit the form
+	- Step 1: Enter input value in input object2
+	- Step 2: Enter input value in input object3
+	- Step 3: Enter input value in input object4
+	- Step 4: Enter input value in input object5
+	- Step 5: Click on h5 object
+	- Step 6: Click on input object6
+	- Step 7: Click on button object3
+Step 15: Select a div and input data before clicking to submit
+	- Step 1: Click on div object4
+	- Step 2: Click on input object7
+	- Step 3: Enter input value in input object8
+	- Step 4: Enter input value in input object9
+	- Step 5: Enter input value in input object10
+	- Step 6: Click on button object2
 Step 16: Take full page screenshot as checkpoint
-",High,NEW
-7,Complete Checkout Process with Product Selection and Payment,"Login, select a product, add it to the basket, enter shipping and payment details, and confirm the checkout process.","Step 1: Navigate to /
-Step 2: Click on link signIn -> Navigate to page '/signin'
+",Low,NEW
+9,Complete Checkout Process with Additional Interactions,"Navigate to home, sign in, shop, interact with products, and complete the checkout process. Verify return to home.","Step 1: Navigate to /
+Step 2: Click on link object2 -> Navigate to page '/signin'
 Step 3: Login
-Step 4: Click on link shop -> Navigate to page '/shop'
-Step 5: Hover over div basketActions (addToBasket4)
-Step 6: Click on header productName
-Step 7: Choose product size and color then add to basket.
-	- Step 1: Click on div selectSize
-	- Step 2: Click on div productSize
-	- Step 3: Click on div chooseColor
-	- Step 4: Click on button addToBasket
-	- Step 5: Click on span shoppingButton
-	- Step 6: Click on button checkOut -> Navigate to page '/checkout/*'
-	- Step 7: Click on button nextStep
-Step 8: Enter input value in input fullName
-Step 9: Enter input value in input emailPlaceholder
-Step 10: Enter input value in input addressPlaceholder
-Step 11: Enter input value in input phonePlaceholder
-Step 12: Click on button nextStep2
-Step 13: Click on div paymentPrompt
-Step 14: Click on input paymentPrompt
-Step 15: Click on button confirmCheckout -> Navigate to page ''
+Step 4: Click on link object -> Navigate to page '/shop'
+Step 5: Hover over div object4
+Step 6: Click on h5 object
+Step 7: Navigate through divs and complete the checkout process
+	- Step 1: Click on div object
+	- Step 2: Click on div object2
+	- Step 3: Click on div object3
+	- Step 4: Click on button object
+	- Step 5: Click on span object
+	- Step 6: Click on button object2 -> Navigate to page '/checkout/*'
+	- Step 7: Click on button object
+Step 8: Input multiple fields and click to submit the form
+	- Step 1: Enter input value in input object2
+	- Step 2: Enter input value in input object3
+	- Step 3: Enter input value in input object4
+	- Step 4: Enter input value in input object5
+	- Step 5: Click on h5 object
+	- Step 6: Click on input object6
+	- Step 7: Click on button object3
+Step 9: Click on span object
+Step 10: Click on input object
+Step 11: Click on button object2 -> Navigate to page ''
+Step 12: Take full page screenshot as checkpoint
+",Trivial,NEW
+8,Checkout Process from Home to Product Page,"Start from the home page, log in, navigate to the shop, select a product, and complete the checkout process. Verify the return to the home page.","Step 1: Navigate to /
+Step 2: Click on link object2 -> Navigate to page '/signin'
+Step 3: Login
+Step 4: Click on link object -> Navigate to page '/shop'
+Step 5: Hover over div object4
+Step 6: Click on h5 object
+Step 7: Navigate through divs and complete the checkout process
+	- Step 1: Click on div object
+	- Step 2: Click on div object2
+	- Step 3: Click on div object3
+	- Step 4: Click on button object
+	- Step 5: Click on span object
+	- Step 6: Click on button object2 -> Navigate to page '/checkout/*'
+	- Step 7: Click on button object
+Step 8: Enter input value in input object2
+Step 9: Enter input value in input object3
+Step 10: Enter input value in input object4
+Step 11: Enter input value in input object5
+Step 12: Click on button object3
+Step 13: Click on div object
+Step 14: Click on input object
+Step 15: Click on button object2 -> Navigate to page ''
 Step 16: Take full page screenshot as checkpoint
-",High,NEW
-6,Search and Checkout for a Product with Payment Confirmation,"Login, search for a product, add it to the basket, enter shipping and payment details, and confirm the checkout.","Step 1: Navigate to /
-Step 2: Click on link signIn -> Navigate to page '/signin'
-Step 3: Login -> Navigate to page '/search/*'
-Step 4: Hover over div addToBasket
-Step 5: Enter input value in input searchProduct
-Step 6: Click on header productName
-Step 7: Choose product size and color then add to basket.
-	- Step 1: Click on div selectSize
-	- Step 2: Click on div productSize
-	- Step 3: Click on div chooseColor
-	- Step 4: Click on button addToBasket
-	- Step 5: Click on span shoppingButton
-	- Step 6: Click on button checkOut -> Navigate to page '/checkout/*'
-	- Step 7: Click on button nextStep
-Step 8: Enter shipping details and proceed to the next step.
-	- Step 1: Enter input value in input fullName
-	- Step 2: Enter input value in input emailPlaceholder
-	- Step 3: Enter input value in input addressPlaceholder
-	- Step 4: Enter input value in input phonePlaceholder
-	- Step 5: Click on header shippingInfo
-	- Step 6: Click on input shippingOption
-	- Step 7: Click on button nextStep2
-Step 9: Input credit card details and confirm the checkout.
-	- Step 1: Click on div creditCardPayment
-	- Step 2: Click on input creditCard
-	- Step 3: Enter input value in input namePlaceholder
-	- Step 4: Enter input value in input cardNumber
-	- Step 5: Enter input value in input passwordPlaceholder
-	- Step 6: Click on button confirmCheckout
-Step 10: Take full page screenshot as checkpoint
-",High,NEW
-3,Adjust Product Quantity and Complete Checkout,"Login, adjust the quantity of a product in the basket, enter shipping and payment details, and confirm the checkout.","Step 1: Navigate to /
-Step 2: Click on link signIn -> Navigate to page '/signin'
+",Trivial,NEW
+4,Dynamic Checkout Process with Multiple Interactions,"Log in from the home page, navigate through dynamic elements, select products, and complete the checkout process. Verify the return to the home page.","Step 1: Navigate to /
+Step 2: Click on link dynamicObject (object5) -> Navigate to page '/signin'
 Step 3: Login
-Step 4: Click on link shop -> Navigate to page '/shop'
-Step 5: Hover over div basketActions (addToBasket)
-Step 6: Click on button productActions (productAction)
-Step 7: Click on span shopping
-Step 8: Click on button quantityControl (increaseQuantity)
-Step 9: Click on image productThumbnail
-Step 10: Click on div productDetails
-Step 11: Click on span quantityControl (increaseQuantity)
-Step 12: Click on span quantityControl (increaseQuantity)
-Step 13: Click on span decreaseQuantity
-Step 14: Click on span decreaseQuantity
-Step 15: Click on span quantityControl (decreaseQuantity2)
-Step 16: Click on button checkOut -> Navigate to page '/checkout/*'
-Step 17: Click on button nextStep
-Step 18: Enter shipping details and proceed to the next step.
-	- Step 1: Enter input value in input fullName
-	- Step 2: Enter input value in input emailPlaceholder
-	- Step 3: Enter input value in input addressPlaceholder
-	- Step 4: Enter input value in input phonePlaceholder
-	- Step 5: Click on header shippingInfo
-	- Step 6: Click on input shippingOption
-	- Step 7: Click on button nextStep2
-Step 19: Input credit card details and confirm the checkout.
-	- Step 1: Click on div creditCardPayment
-	- Step 2: Click on input creditCard
-	- Step 3: Enter input value in input namePlaceholder
-	- Step 4: Enter input value in input cardNumber
-	- Step 5: Enter input value in input passwordPlaceholder
-	- Step 6: Click on button confirmCheckout
+Step 4: Click on link object -> Navigate to page '/shop'
+Step 5: Hover over div dynamicObject (object2)
+Step 6: Click on button dynamicObject (object)
+Step 7: Click on span object
+Step 8: Click on button dynamicObject (object6)
+Step 9: Click on img object
+Step 10: Click on div object7
+Step 11: Click on span dynamicObject (object3)
+Step 12: Click on span dynamicObject (object3)
+Step 13: Click on span object4
+Step 14: Click on span dynamicObject (object5)
+Step 15: Click on span object4
+Step 16: Click on button object2 -> Navigate to page '/checkout/*'
+Step 17: Click on button object
+Step 18: Input multiple fields and click to submit the form
+	- Step 1: Enter input value in input object2
+	- Step 2: Enter input value in input object3
+	- Step 3: Enter input value in input object4
+	- Step 4: Enter input value in input object5
+	- Step 5: Click on h5 object
+	- Step 6: Click on input object6
+	- Step 7: Click on button object3
+Step 19: Select a div and input data before clicking to submit
+	- Step 1: Click on div object4
+	- Step 2: Click on input object7
+	- Step 3: Enter input value in input object8
+	- Step 4: Enter input value in input object9
+	- Step 5: Enter input value in input object10
+	- Step 6: Click on button object2
 Step 20: Take full page screenshot as checkpoint
-",High,NEW
-5,Add Product to Basket and Complete Checkout,"Login, add a product to the basket, enter shipping and payment details, and confirm the checkout process.","Step 1: Navigate to /
-Step 2: Click on link signIn -> Navigate to page '/signin'
-Step 3: Login -> Navigate to page '/search/*'
-Step 4: Hover over div addToBasket
-Step 5: Enter input value in input searchProduct
-Step 6: Click on button addToBasket
-Step 7: Click on span shoppingButton
-Step 8: Click on button checkout -> Navigate to page '/checkout/*'
-Step 9: Click on button nextStep
-Step 10: Enter shipping details and proceed to the next step.
-	- Step 1: Enter input value in input fullName
-	- Step 2: Enter input value in input emailPlaceholder
-	- Step 3: Enter input value in input addressPlaceholder
-	- Step 4: Enter input value in input phonePlaceholder
-	- Step 5: Click on header shippingInfo
-	- Step 6: Click on input shippingOption
-	- Step 7: Click on button nextStep2
-Step 11: Input credit card details and confirm the checkout.
-	- Step 1: Click on div creditCardPayment
-	- Step 2: Click on input creditCard
-	- Step 3: Enter input value in input namePlaceholder
-	- Step 4: Enter input value in input cardNumber
-	- Step 5: Enter input value in input passwordPlaceholder
-	- Step 6: Click on button confirmCheckout
-Step 12: Take full page screenshot as checkpoint
-",High,NEW
-10,Complete Checkout Process from Sign In to Confirmation,"Navigate to the home page, sign in, shop for products, add to basket, and complete the checkout process with shipping and payment details.","Step 1: Navigate to /
-Step 2: Click on link signIn -> Navigate to page '/signin'
-Step 3: Login
-Step 4: Click on link shop -> Navigate to page '/shop'
-Step 5: Hover over div basketActions (addToBasket)
-Step 6: Click on button productAction2
-Step 7: Click on span shopping
-Step 8: Click on button checkOut -> Navigate to page '/checkout/*'
-Step 9: Click on button nextStep
-Step 10: Enter shipping details and proceed to the next step.
-	- Step 1: Enter input value in input fullName
-	- Step 2: Enter input value in input emailPlaceholder
-	- Step 3: Enter input value in input addressPlaceholder
-	- Step 4: Enter input value in input phonePlaceholder
-	- Step 5: Click on header shippingInfo
-	- Step 6: Click on input shippingOption
-	- Step 7: Click on button nextStep2
-Step 11: Input credit card details and confirm the checkout.
-	- Step 1: Click on div creditCardPayment
-	- Step 2: Click on input creditCard
-	- Step 3: Enter input value in input namePlaceholder
-	- Step 4: Enter input value in input cardNumber
-	- Step 5: Enter input value in input passwordPlaceholder
-	- Step 6: Click on button confirmCheckout
-Step 12: Take full page screenshot as checkpoint
-",High,NEW
-14,Checkout Process with Detailed Shipping and Payment Information,"Start from the home page, sign in, select products, add to basket, and provide detailed shipping and payment information to complete the checkout.","Step 1: Navigate to /
-Step 2: Click on link shop3 -> Navigate to page '/shop'
-Step 3: Click on span shopping
-Step 4: Click on button checkOut
-Step 5: Click on button signInToCheckout -> Navigate to page '/signin'
+",Trivial,NEW
+15,Comprehensive Shopping and Checkout Flow with Multiple Inputs,"Navigate to shop, sign in, and select a product. Complete a detailed checkout process with multiple inputs and verify navigation back to the home page.","Step 1: Navigate to /
+Step 2: Click on link dynamicObject (object6) -> Navigate to page '/shop'
+Step 3: Click on span object
+Step 4: Click on button object2
+Step 5: Click on button object5 -> Navigate to page '/signin'
 Step 6: Login -> Navigate to page '/'
-Step 7: Hover over div productDisplay
-Step 8: Click on image productDisplay -> Navigate to page '/product/*'
-Step 9: Click on button addToBasket
-Step 10: Click on span shoppingButton
-Step 11: Click on button checkOut -> Navigate to page '/checkout/*'
-Step 12: Click on button nextStep
-Step 13: Click on button nextStep2
-Step 14: Click on input fullName
-Step 15: Enter input value in input fullName
-Step 16: Click on input emailPlaceholder
-Step 17: Enter input value in input emailPlaceholder
-Step 18: Click on div shippingAddressRequired
-Step 19: Click on input addressPlaceholder
-Step 20: Enter input value in input addressPlaceholder
-Step 21: Enter input value in input phonePlaceholder
-Step 22: Click on header shippingInfo
-Step 23: Click on input shippingOption
-Step 24: Click on button nextStep2
-Step 25: Click on button nextStep2
-Step 26: Click on input fullName
-Step 27: Enter input value in input fullName
-Step 28: Click on button nextStep2
-Step 29: Click on button confirmCheckout
-Step 30: Click on span paymentMethods
-Step 31: Click on div creditCard
-Step 32: Click on label creditCard
-Step 33: Click on label paymentPrompt
-Step 34: Click on button confirmCheckout -> Navigate to page ''
+Step 7: Hover over div object
+Step 8: Click on img object -> Navigate to page '/product/*'
+Step 9: Click on button object
+Step 10: Click on span object
+Step 11: Click on button object2 -> Navigate to page '/checkout/*'
+Step 12: Click on button object
+Step 13: Click on button object3
+Step 14: Click on input object2
+Step 15: Enter input value in input object2
+Step 16: Click on input object3
+Step 17: Enter input value in input object3
+Step 18: Click on div object2
+Step 19: Click on input object4
+Step 20: Enter input value in input object4
+Step 21: Enter input value in input object5
+Step 22: Click on h5 object
+Step 23: Click on input object6
+Step 24: Click on button object3
+Step 25: Click on button object3
+Step 26: Click on input object2
+Step 27: Enter input value in input object2
+Step 28: Click on button object3
+Step 29: Click on button object2
+Step 30: Click on span object2
+Step 31: Click on div object3
+Step 32: Click on label object
+Step 33: Click on label object2
+Step 34: Click on button object2 -> Navigate to page ''
 Step 35: Take full page screenshot as checkpoint
-",High,NEW
+",Trivial,NEW

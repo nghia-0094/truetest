@@ -1,0 +1,74 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "50d799c3-12a8-41c3-9c32-1820e6b39f5c",
+      "name": "Navigate to / with params (a, b)",
+      "sub_steps": [],
+      "target_name": "",
+      "target_test_object_id": ""
+    },
+    {
+      "id": "241ed383-f3e7-4bdb-977e-1611ac5022b9",
+      "name": "Click on link object",
+      "sub_steps": [],
+      "action_id": "997781c4-3c77-47ab-af6a-f923e3d294b8",
+      "timestamp": 1767276000000,
+      "target_name": "link_object",
+      "target_test_object_id": "acecc152-e8f0-48d0-9b2d-446b21897c90"
+    },
+    {
+      "id": "06fa2a17-c183-4aa6-8a36-b473bb27bb4b",
+      "name": "Navigate to references and perform drag and drop actions",
+      "sub_steps": [
+        {
+          "id": "0bd72fa1-8068-4229-9078-98aa47bff7c8",
+          "name": "Click on link object7",
+          "action_id": "78992959-d395-4591-878e-24762683053b",
+          "timestamp": 1767276010000,
+          "target_name": "link_object7",
+          "target_test_object_id": "f35f4480-0eee-49d9-8258-ce2e840013b3"
+        },
+        {
+          "id": "a4b05332-5440-4e80-9518-014623508880",
+          "name": "Click on link navbtnReferences",
+          "action_id": "56c4049f-6e98-4658-bd1c-30025983b1cb",
+          "timestamp": 1767276020000,
+          "target_name": "link_navbtnReferences",
+          "target_test_object_id": "57f6ecc5-a5dd-4f30-863b-57bd3def7cc3"
+        },
+        {
+          "id": "14397f46-2d2a-4870-9f96-6869a64e7139",
+          "name": "Drag img thumbnail and Drop to div object2",
+          "action_id": "e4e12794-fa33-4e2a-93ec-6f8b063be98c",
+          "timestamp": 1767276030000,
+          "target_name": "div_object2",
+          "target_test_object_id": "cd924287-7979-4f17-b8de-3505306cf17d",
+          "source_test_object_id": "e7394c77-756a-41fd-a03c-9f89cdbbcdae"
+        },
+        {
+          "id": "ed1bc0ab-ec53-4a19-a11c-3c2fda28a360",
+          "name": "Drag img thumbnail and Drop to div object2",
+          "action_id": "1ce3fd51-c197-4d61-b292-d83f8a34acea",
+          "timestamp": 1767276050000,
+          "target_name": "div_object2",
+          "target_test_object_id": "cd924287-7979-4f17-b8de-3505306cf17d",
+          "source_test_object_id": "e7394c77-756a-41fd-a03c-9f89cdbbcdae"
+        }
+      ],
+      "action_id": "78992959-d395-4591-878e-24762683053b",
+      "timestamp": 1767276010000,
+      "target_name": "link_object7",
+      "target_test_object_id": ""
+    },
+    {
+      "id": "27fa7d78-4750-47b2-857c-dcb3fce48663",
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "action_id": "191ce812-f2b8-4c0e-b159-6b6f4dd16f4c",
+      "timestamp": 1767276070000,
+      "target_name": "",
+      "target_test_object_id": ""
+    }
+  ]
+}
