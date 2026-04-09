@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Access the eSubmission application, enter personal and medical details, upload necessary documents, and finalize the claim submission.</description>
+   <name>TC201-Submit eClaim with Medical Information and Uploads</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9a23d9c6-cdfc-49b5-87db-af6c187aa04c</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>04e918d8-10f7-4e82-b03a-d5cd5616c07a</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>d567ce34-3cc1-464c-a8ab-2504daa620b7</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/AI-Generated/GH_ACTION/TC201-Submit eClaim with Medical Information and Uploads-test-data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_medicalCondition_InternalLabel</value>
+      <variableId>ab96cd71-6018-47b5-8231-037a53f2d173</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_medicalCondition_InternalLabel_1</value>
+      <variableId>d2b64f1f-7a3c-44a9-a0ce-1ff8497bff4a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_medicalCondition_css_value</value>
+      <variableId>fb40bf93-4d1a-4c2d-991d-681348e8d624</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_medicalCondition_css_value_1</value>
+      <variableId>4bdf33aa-5ca0-41d6-9563-ac3f61322a05</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_medicalInformation_InternalLabel</value>
+      <variableId>ed6cb44b-2c8d-4fac-8b47-46fe62d6aa0f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_medicalInformation_InternalLabel_1</value>
+      <variableId>7ea8363f-8bc5-4f33-a1cd-4df08319b23e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_medicalInformation_css_value</value>
+      <variableId>882c2314-7985-49ba-bb87-af11b8172401</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_medicalInformation_css_value_1</value>
+      <variableId>10a95509-12d5-48f0-9ebb-b6c0d3c8e31f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_phoneNumber</value>
+      <variableId>0385901d-9c32-4e3a-bf14-8c20b7fe8e37</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_textboxDdmmyyyy</value>
+      <variableId>f1caff92-963d-4f58-a8e6-c4f37b4bc035</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_totalBillAmount4</value>
+      <variableId>7b35e7ec-aa1d-4039-8d33-85db2eb0c704</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>matIcon_dynamicObject_InternalLabel</value>
+      <variableId>ec8cc0a0-fdbb-4f76-b493-84a8d42cce37</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>matIcon_dynamicObject_css_value</value>
+      <variableId>278f52c3-a7df-4e06-be0a-ccbb0af57865</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>matOption_currencyLanguage_MatOption</value>
+      <variableId>bfc7e63d-47b0-43f0-9e77-8d6cbbcf06b0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>matOption_currencyLanguage_MatOption_1</value>
+      <variableId>79a43474-9901-478e-b535-d214b05ef508</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>matOption_currencyLanguage_css_value</value>
+      <variableId>c92979cf-2f2c-4b3b-aabb-46bc8e080f66</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>matOption_currencyLanguage_css_value_1</value>
+      <variableId>f09bd7f5-c10f-46d9-a08b-1780bcb90fee</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>matSelect_languageOption_InternalLabel</value>
+      <variableId>2dff61e9-99b2-417f-9de6-0379c6c68593</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>matSelect_languageOption_css_value</value>
+      <variableId>4e4352aa-f4cd-40e2-8f75-21a63e5cb854</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>span_calendarElement_Key</value>
+      <variableId>698d7257-9ed7-477b-884a-82d69bd81ed1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>span_calendarElement_SectionNthChild</value>
+      <variableId>53a6fa80-8cbb-4d09-bb66-385222b24861</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d567ce34-3cc1-464c-a8ab-2504daa620b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>span_calendarElement_css_value</value>
+      <variableId>656812c4-3484-40bb-a571-6f79efe8ccbe</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Medical Condition (Please select for dental and illness)'</defaultValue>
+      <description>Step 15: Click on input medicalCondition (medicalConditionRadio) - (Dynamic locator variable)</description>
+      <id>ab96cd71-6018-47b5-8231-037a53f2d173</id>
+      <masked>false</masked>
+      <name>input_medicalCondition_InternalLabel</name>
+   </variable>
+   <variable>
+      <defaultValue>'Medical Condition (Please select for maternity and illness)'</defaultValue>
+      <description>Step 17: Click on input medicalCondition (medicalCondition) - (Dynamic locator variable)</description>
+      <id>d2b64f1f-7a3c-44a9-a0ce-1ff8497bff4a</id>
+      <masked>false</masked>
+      <name>input_medicalCondition_InternalLabel_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[id=\&quot;mat-radio-6-input\&quot;]'</defaultValue>
+      <description>Step 15: Click on input medicalCondition (medicalConditionRadio) - (Dynamic locator variable)</description>
+      <id>fb40bf93-4d1a-4c2d-991d-681348e8d624</id>
+      <masked>false</masked>
+      <name>input_medicalCondition_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[id=\&quot;mat-radio-24-input\&quot;]'</defaultValue>
+      <description>Step 17: Click on input medicalCondition (medicalCondition) - (Dynamic locator variable)</description>
+      <id>4bdf33aa-5ca0-41d6-9563-ac3f61322a05</id>
+      <masked>false</masked>
+      <name>input_medicalCondition_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Outpatient'</defaultValue>
+      <description>Step 14: Click on input medicalInformation (medicalInput) - (Dynamic locator variable)</description>
+      <id>ed6cb44b-2c8d-4fac-8b47-46fe62d6aa0f</id>
+      <masked>false</masked>
+      <name>input_medicalInformation_InternalLabel</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hospitalization'</defaultValue>
+      <description>Step 16: Click on input medicalInformation (medicalInput2) - (Dynamic locator variable)</description>
+      <id>7ea8363f-8bc5-4f33-a1cd-4df08319b23e</id>
+      <masked>false</masked>
+      <name>input_medicalInformation_InternalLabel_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[id=\&quot;mat-radio-0-input\&quot;]'</defaultValue>
+      <description>Step 14: Click on input medicalInformation (medicalInput) - (Dynamic locator variable)</description>
+      <id>882c2314-7985-49ba-bb87-af11b8172401</id>
+      <masked>false</masked>
+      <name>input_medicalInformation_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[id=\&quot;mat-radio-1-input\&quot;]'</defaultValue>
+      <description>Step 16: Click on input medicalInformation (medicalInput2) - (Dynamic locator variable)</description>
+      <id>10a95509-12d5-48f0-9ebb-b6c0d3c8e31f</id>
+      <masked>false</masked>
+      <name>input_medicalInformation_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'{{phone_number}}'</defaultValue>
+      <description>Step 8: Enter input value in input phoneNumber - (Input data variable)</description>
+      <id>0385901d-9c32-4e3a-bf14-8c20b7fe8e37</id>
+      <masked>false</masked>
+      <name>input_phoneNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'03/10/1973'</defaultValue>
+      <description>Step 11: Enter input value in input textboxDdmmyyyy - (Input data variable)</description>
+      <id>f1caff92-963d-4f58-a8e6-c4f37b4bc035</id>
+      <masked>false</masked>
+      <name>input_textboxDdmmyyyy</name>
+   </variable>
+   <variable>
+      <defaultValue>'7788'</defaultValue>
+      <description>Step 31: Enter input value in input totalBillAmount4 - (Input data variable)</description>
+      <id>7b35e7ec-aa1d-4039-8d33-85db2eb0c704</id>
+      <masked>false</masked>
+      <name>input_totalBillAmount4</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hospitalization (Inpatient)'</defaultValue>
+      <description>Step 18: Click on matIcon dynamicObject (dynamicObject) - (Dynamic locator variable)</description>
+      <id>ec8cc0a0-fdbb-4f76-b493-84a8d42cce37</id>
+      <masked>false</masked>
+      <name>matIcon_dynamicObject_InternalLabel</name>
+   </variable>
+   <variable>
+      <defaultValue>'[id=\&quot;cds-checkbox-2\&quot;] > .indeterminate [id=\&quot;Layer_1\&quot;]'</defaultValue>
+      <description>Step 18: Click on matIcon dynamicObject (dynamicObject) - (Dynamic locator variable)</description>
+      <id>278f52c3-a7df-4e06-be0a-ccbb0af57865</id>
+      <masked>false</masked>
+      <name>matIcon_dynamicObject_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description>Step 3: Click on matOption currencyLanguage (currencyLanguage2) - (Dynamic locator variable)</description>
+      <id>bfc7e63d-47b0-43f0-9e77-8d6cbbcf06b0</id>
+      <masked>false</masked>
+      <name>matOption_currencyLanguage_MatOption</name>
+   </variable>
+   <variable>
+      <defaultValue>'4'</defaultValue>
+      <description>Step 35: Click on matOption currencyLanguage (currencyLanguage) - (Dynamic locator variable)</description>
+      <id>79a43474-9901-478e-b535-d214b05ef508</id>
+      <masked>false</masked>
+      <name>matOption_currencyLanguage_MatOption_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=\&quot;mat-mdc-option\\\\ mdc-list-item\\\\ cds-option\&quot;]'</defaultValue>
+      <description>Step 3: Click on matOption currencyLanguage (currencyLanguage2) - (Dynamic locator variable)</description>
+      <id>c92979cf-2f2c-4b3b-aabb-46bc8e080f66</id>
+      <masked>false</masked>
+      <name>matOption_currencyLanguage_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'.mat-mdc-option-active'</defaultValue>
+      <description>Step 35: Click on matOption currencyLanguage (currencyLanguage) - (Dynamic locator variable)</description>
+      <id>f09bd7f5-c10f-46d9-a08b-1780bcb90fee</id>
+      <masked>false</masked>
+      <name>matOption_currencyLanguage_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bahasa Indonesia'</defaultValue>
+      <description>Step 2: Click on matSelect languageOption (languageOption) - (Dynamic locator variable)</description>
+      <id>2dff61e9-99b2-417f-9de6-0379c6c68593</id>
+      <masked>false</masked>
+      <name>matSelect_languageOption_InternalLabel</name>
+   </variable>
+   <variable>
+      <defaultValue>'.mat-mdc-select'</defaultValue>
+      <description>Step 2: Click on matSelect languageOption (languageOption) - (Dynamic locator variable)</description>
+      <id>4e4352aa-f4cd-40e2-8f75-21a63e5cb854</id>
+      <masked>false</masked>
+      <name>matSelect_languageOption_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description>Step 23: Click on span calendarElement (calendarDate) - (Dynamic locator variable)</description>
+      <id>698d7257-9ed7-477b-884a-82d69bd81ed1</id>
+      <masked>false</masked>
+      <name>span_calendarElement_Key</name>
+   </variable>
+   <variable>
+      <defaultValue>'4'</defaultValue>
+      <description>Step 23: Click on span calendarElement (calendarDate) - (Dynamic locator variable)</description>
+      <id>53a6fa80-8cbb-4d09-bb66-385222b24861</id>
+      <masked>false</masked>
+      <name>span_calendarElement_SectionNthChild</name>
+   </variable>
+   <variable>
+      <defaultValue>'section:nth-of-type(4) > cds-calendar-item:nth-of-type(5) > [class=\&quot;cds-calendar-item__content\&quot;]'</defaultValue>
+      <description>Step 23: Click on span calendarElement (calendarDate) - (Dynamic locator variable)</description>
+      <id>656812c4-3484-40bb-a571-6f79efe8ccbe</id>
+      <masked>false</masked>
+      <name>span_calendarElement_css_value</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>04e918d8-10f7-4e82-b03a-d5cd5616c07a</id>
+      </flow>
+   </customField>
+</TestCaseEntity>

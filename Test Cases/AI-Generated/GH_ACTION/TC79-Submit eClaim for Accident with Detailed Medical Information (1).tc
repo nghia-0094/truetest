@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Access the eSubmission application, fill in personal and medical condition details, upload documents, and finalize the claim submission.</description>
+   <name>TC79-Submit eClaim for Accident with Detailed Medical Information (1)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c921c83a-e1e1-4020-8422-b8acf3158750</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>3116c167-41a2-42bf-93a0-c0be95547334</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>8fa6155c-0851-4385-86bb-6627548061c7</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/AI-Generated/GH_ACTION/TC79-Submit eClaim for Accident with Detailed Medical Information (1)-test-data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>8fa6155c-0851-4385-86bb-6627548061c7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>button_confirmation_CdsButton</value>
+      <variableId>1dbdadf9-9fec-4f83-8ee6-3b05b0636603</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8fa6155c-0851-4385-86bb-6627548061c7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>button_confirmation_css_value</value>
+      <variableId>44a40db2-085f-4edd-bb73-71695cf7f95a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8fa6155c-0851-4385-86bb-6627548061c7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_dateInputAlternative</value>
+      <variableId>5dab60b8-06e0-4ca7-acbd-d803e33f03d0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8fa6155c-0851-4385-86bb-6627548061c7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_phoneNumber</value>
+      <variableId>dd3747fd-bbae-44cf-b5bb-d4f2e31219b1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8fa6155c-0851-4385-86bb-6627548061c7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_radioAccidentMedicalCondition_InternalLabel</value>
+      <variableId>71c3bbcb-9cc5-4375-8688-ba1f3fed57f1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8fa6155c-0851-4385-86bb-6627548061c7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_radioAccidentMedicalCondition_css_value</value>
+      <variableId>77de568b-dd8a-4a0b-b5bf-271a91c47651</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8fa6155c-0851-4385-86bb-6627548061c7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_radioMedicalConditionSelection_InternalLabel</value>
+      <variableId>f07d5f7d-375c-4330-b8a8-cc1866854ad8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8fa6155c-0851-4385-86bb-6627548061c7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_radioMedicalConditionSelection_css_value</value>
+      <variableId>bab46658-ae9d-43f5-89e4-c795f19dfde6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8fa6155c-0851-4385-86bb-6627548061c7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_totalBillAmount</value>
+      <variableId>e467647d-5034-4730-9871-ae0728ded2ca</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8fa6155c-0851-4385-86bb-6627548061c7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>matIcon_object_InternalLabel</value>
+      <variableId>bc5bc4d0-13ba-4dcc-85bc-da678e1456b4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8fa6155c-0851-4385-86bb-6627548061c7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>matIcon_object_css_value</value>
+      <variableId>d1ad0cd0-9207-4a62-a9a4-9acea870bde3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8fa6155c-0851-4385-86bb-6627548061c7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>matOption_currencyLanguage_MatOption</value>
+      <variableId>53cdd995-c111-4522-9602-25ba24c699c0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8fa6155c-0851-4385-86bb-6627548061c7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>matOption_currencyLanguage_MatOption_1</value>
+      <variableId>a22a23b6-6a46-4995-9b59-68f84856227a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8fa6155c-0851-4385-86bb-6627548061c7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>matOption_currencyLanguage_css_value</value>
+      <variableId>c5aba7c0-6a25-48dd-9ced-3eaf25669931</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8fa6155c-0851-4385-86bb-6627548061c7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>matOption_currencyLanguage_css_value_1</value>
+      <variableId>4793bcf3-f5a8-426b-8765-affd3437de42</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8fa6155c-0851-4385-86bb-6627548061c7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>span_calendarDay_CdsCalendarItemNthChild</value>
+      <variableId>10e95864-6430-4c46-bdaf-67c57fe365a5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8fa6155c-0851-4385-86bb-6627548061c7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>span_calendarDay_css_value</value>
+      <variableId>6e794c0d-ed6e-48ea-82bd-54cc88cc1fd3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description>Step 4: Click on button confirmation (ok) - (Dynamic locator variable)</description>
+      <id>1dbdadf9-9fec-4f83-8ee6-3b05b0636603</id>
+      <masked>false</masked>
+      <name>button_confirmation_CdsButton</name>
+   </variable>
+   <variable>
+      <defaultValue>'[id=\&quot;cds-button-3\&quot;] > .mat-ripple'</defaultValue>
+      <description>Step 4: Click on button confirmation (ok) - (Dynamic locator variable)</description>
+      <id>44a40db2-085f-4edd-bb73-71695cf7f95a</id>
+      <masked>false</masked>
+      <name>button_confirmation_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'03/10/1973'</defaultValue>
+      <description>Step 10: Enter input value in input dateInputAlternative - (Input data variable)</description>
+      <id>5dab60b8-06e0-4ca7-acbd-d803e33f03d0</id>
+      <masked>false</masked>
+      <name>input_dateInputAlternative</name>
+   </variable>
+   <variable>
+      <defaultValue>'{{phone_number}}'</defaultValue>
+      <description>Step 7: Enter input value in input phoneNumber - (Input data variable)</description>
+      <id>dd3747fd-bbae-44cf-b5bb-d4f2e31219b1</id>
+      <masked>false</masked>
+      <name>input_phoneNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'Medical Condition (Please select for maternity and illness)'</defaultValue>
+      <description>Step 14: Click on input radioAccidentMedicalCondition (medicalCondition) - (Dynamic locator variable)</description>
+      <id>71c3bbcb-9cc5-4375-8688-ba1f3fed57f1</id>
+      <masked>false</masked>
+      <name>input_radioAccidentMedicalCondition_InternalLabel</name>
+   </variable>
+   <variable>
+      <defaultValue>'[id=\&quot;mat-radio-6-input\&quot;]'</defaultValue>
+      <description>Step 14: Click on input radioAccidentMedicalCondition (medicalCondition) - (Dynamic locator variable)</description>
+      <id>77de568b-dd8a-4a0b-b5bf-271a91c47651</id>
+      <masked>false</masked>
+      <name>input_radioAccidentMedicalCondition_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hospitalization'</defaultValue>
+      <description>Step 13: Click on input radioMedicalConditionSelection (radioHospitalization2) - (Dynamic locator variable)</description>
+      <id>f07d5f7d-375c-4330-b8a8-cc1866854ad8</id>
+      <masked>false</masked>
+      <name>input_radioMedicalConditionSelection_InternalLabel</name>
+   </variable>
+   <variable>
+      <defaultValue>'[id=\&quot;mat-radio-1-input\&quot;]'</defaultValue>
+      <description>Step 13: Click on input radioMedicalConditionSelection (radioHospitalization2) - (Dynamic locator variable)</description>
+      <id>bab46658-ae9d-43f5-89e4-c795f19dfde6</id>
+      <masked>false</masked>
+      <name>input_radioMedicalConditionSelection_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'5435'</defaultValue>
+      <description>Step 29: Enter input value in input totalBillAmount - (Input data variable)</description>
+      <id>e467647d-5034-4730-9871-ae0728ded2ca</id>
+      <masked>false</masked>
+      <name>input_totalBillAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hospitalization (Inpatient)'</defaultValue>
+      <description>Step 15: Click on matIcon object (object2) - (Dynamic locator variable)</description>
+      <id>bc5bc4d0-13ba-4dcc-85bc-da678e1456b4</id>
+      <masked>false</masked>
+      <name>matIcon_object_InternalLabel</name>
+   </variable>
+   <variable>
+      <defaultValue>'[id=\&quot;cds-checkbox-2\&quot;] > .indeterminate [id=\&quot;Layer_1\&quot;]'</defaultValue>
+      <description>Step 15: Click on matIcon object (object2) - (Dynamic locator variable)</description>
+      <id>d1ad0cd0-9207-4a62-a9a4-9acea870bde3</id>
+      <masked>false</masked>
+      <name>matIcon_object_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description>Step 2: Click on matOption currencyLanguage (english) - (Dynamic locator variable)</description>
+      <id>53cdd995-c111-4522-9602-25ba24c699c0</id>
+      <masked>false</masked>
+      <name>matOption_currencyLanguage_MatOption</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description>Step 34: Click on matOption currencyLanguage (selectRupiah) - (Dynamic locator variable)</description>
+      <id>a22a23b6-6a46-4995-9b59-68f84856227a</id>
+      <masked>false</masked>
+      <name>matOption_currencyLanguage_MatOption_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=\&quot;mat-mdc-option\\\\ mdc-list-item\\\\ cds-option\&quot;]'</defaultValue>
+      <description>Step 2: Click on matOption currencyLanguage (english) - (Dynamic locator variable)</description>
+      <id>c5aba7c0-6a25-48dd-9ced-3eaf25669931</id>
+      <masked>false</masked>
+      <name>matOption_currencyLanguage_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'.mat-mdc-option-active'</defaultValue>
+      <description>Step 34: Click on matOption currencyLanguage (selectRupiah) - (Dynamic locator variable)</description>
+      <id>4793bcf3-f5a8-426b-8765-affd3437de42</id>
+      <masked>false</masked>
+      <name>matOption_currencyLanguage_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description>Step 20: Click on span calendarDay (day2) - (Dynamic locator variable)</description>
+      <id>10e95864-6430-4c46-bdaf-67c57fe365a5</id>
+      <masked>false</masked>
+      <name>span_calendarDay_CdsCalendarItemNthChild</name>
+   </variable>
+   <variable>
+      <defaultValue>'section:nth-of-type(2) > cds-calendar-item:nth-of-type(2) > [class=\&quot;cds-calendar-item__content\&quot;]'</defaultValue>
+      <description>Step 20: Click on span calendarDay (day2) - (Dynamic locator variable)</description>
+      <id>6e794c0d-ed6e-48ea-82bd-54cc88cc1fd3</id>
+      <masked>false</masked>
+      <name>span_calendarDay_css_value</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>3116c167-41a2-42bf-93a0-c0be95547334</id>
+      </flow>
+   </customField>
+</TestCaseEntity>

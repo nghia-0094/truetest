@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Open eClaims UI, switch language, proceed through claim ID and phone and date entry, select medical status and claim event cause options, continue until reaching home page.</description>
+   <name>TC264-Switch language and complete initial claim submission then verify home page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c3fcefb5-5d6b-450b-bee3-32e54d034a44</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>0a2271c9-f74e-42b6-b3eb-f7fe68ce0bdd</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>869def2d-a1f3-40e9-a11a-009ef8b9d7ad</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/AI-Generated/GH_ACTION/TC264-Switch language and complete initial claim submission then verify home page-test-data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>869def2d-a1f3-40e9-a11a-009ef8b9d7ad</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_claimEventCause_InternalLabel_1</value>
+      <variableId>58da9077-6770-40dc-ab14-421290f9b1fc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>869def2d-a1f3-40e9-a11a-009ef8b9d7ad</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_claimEventCause_css_value_1</value>
+      <variableId>0a552776-8f42-40e4-ba86-138ec676fa1f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>869def2d-a1f3-40e9-a11a-009ef8b9d7ad</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_date</value>
+      <variableId>312f23ca-b3cf-44a6-aae6-bde02da18a93</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>869def2d-a1f3-40e9-a11a-009ef8b9d7ad</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_phoneNumber</value>
+      <variableId>c456e254-05e0-48b1-b7f3-fff0fd9c0faa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>869def2d-a1f3-40e9-a11a-009ef8b9d7ad</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_phoneNumber3</value>
+      <variableId>c40114a4-0f1e-4428-b008-107e278c828d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>869def2d-a1f3-40e9-a11a-009ef8b9d7ad</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_textboxDdmmyyyy</value>
+      <variableId>1e433f09-d6fc-4f67-b42b-c795bfe56bc1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>869def2d-a1f3-40e9-a11a-009ef8b9d7ad</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_textfieldClaimId</value>
+      <variableId>505c8ba2-5f02-47c3-bbdb-c81a1b83cc33</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>869def2d-a1f3-40e9-a11a-009ef8b9d7ad</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>label_medicalStatusOptions_LabelInternalText_1</value>
+      <variableId>cfd97e07-5a8a-425e-a504-63e4e010d067</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>869def2d-a1f3-40e9-a11a-009ef8b9d7ad</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>label_medicalStatusOptions_css_value_1</value>
+      <variableId>4ed1c757-04f5-4190-ac50-7caef029e50e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Illness'</defaultValue>
+      <description>Step 27: Click on input claimEventCause (radioIllness) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>58da9077-6770-40dc-ab14-421290f9b1fc</id>
+      <masked>false</masked>
+      <name>input_claimEventCause_InternalLabel_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[id=\&quot;mat-radio-6-input\&quot;]'</defaultValue>
+      <description>Step 27: Click on input claimEventCause (radioIllness) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>0a552776-8f42-40e4-ba86-138ec676fa1f</id>
+      <masked>false</masked>
+      <name>input_claimEventCause_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 14: Enter input value in input date - (Input data variable)</description>
+      <id>312f23ca-b3cf-44a6-aae6-bde02da18a93</id>
+      <masked>false</masked>
+      <name>input_date</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 12: Enter input value in input phoneNumber - (Input data variable)</description>
+      <id>c456e254-05e0-48b1-b7f3-fff0fd9c0faa</id>
+      <masked>false</masked>
+      <name>input_phoneNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'{{phone_number}}'</defaultValue>
+      <description>Step 23: Enter phone number and date in the submission form - (Input data variable)</description>
+      <id>c40114a4-0f1e-4428-b008-107e278c828d</id>
+      <masked>false</masked>
+      <name>input_phoneNumber3</name>
+   </variable>
+   <variable>
+      <defaultValue>'13/08/1963'</defaultValue>
+      <description>Step 23: Enter phone number and date in the submission form - (Input data variable)</description>
+      <id>1e433f09-d6fc-4f67-b42b-c795bfe56bc1</id>
+      <masked>false</masked>
+      <name>input_textboxDdmmyyyy</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 8: Enter input value in input textfieldClaimId - (Input data variable)</description>
+      <id>505c8ba2-5f02-47c3-bbdb-c81a1b83cc33</id>
+      <masked>false</masked>
+      <name>input_textfieldClaimId</name>
+   </variable>
+   <variable>
+      <defaultValue>'Disability'</defaultValue>
+      <description>Step 25: Click on label medicalStatusOptions (disability2) - (Dynamic locator variable)</description>
+      <id>cfd97e07-5a8a-425e-a504-63e4e010d067</id>
+      <masked>false</masked>
+      <name>label_medicalStatusOptions_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=\&quot;mat-radio-3-input\&quot;]'</defaultValue>
+      <description>Step 25: Click on label medicalStatusOptions (disability2) - (Dynamic locator variable)</description>
+      <id>4ed1c757-04f5-4190-ac50-7caef029e50e</id>
+      <masked>false</masked>
+      <name>label_medicalStatusOptions_css_value_1</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>0a2271c9-f74e-42b6-b3eb-f7fe68ce0bdd</id>
+      </flow>
+   </customField>
+</TestCaseEntity>

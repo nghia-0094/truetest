@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Open eClaims submission UI, set language, enter claim ID and work date, select illness and clinic details, fill bill and insurance fields, upload documents, submit, and verify pageHome.</description>
+   <name>TC300-Submit eClaims with Date and Illness Details Upload Documents and Verify Home</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e1f99b50-c76e-4bf7-b6a3-04faef5e1af2</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>8541d22a-b924-43fe-95d2-78e68685a49a</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>89df2726-917c-45b3-8279-845823684da3</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/AI-Generated/GH_ACTION/TC300-Submit eClaims with Date and Illness Details Upload Documents and Verify Home-test-data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>89df2726-917c-45b3-8279-845823684da3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_claimEventCause_InternalLabel_1</value>
+      <variableId>84970b36-986c-4b94-b83b-d9068ed61c85</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>89df2726-917c-45b3-8279-845823684da3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_claimEventCause_css_value_1</value>
+      <variableId>ef4df9f1-bbd9-43e6-a604-3a3352ec7075</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>89df2726-917c-45b3-8279-845823684da3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_date</value>
+      <variableId>9bd31d5a-ed42-4196-be0d-3e7546a1b5ad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>89df2726-917c-45b3-8279-845823684da3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_dateStartingWork</value>
+      <variableId>f1e89fe8-aa85-4bb3-a72c-6c1a481dfbde</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>89df2726-917c-45b3-8279-845823684da3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_medicalStatus_InternalLabel_1</value>
+      <variableId>968e62a3-493d-48ed-9a3e-5de15b051807</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>89df2726-917c-45b3-8279-845823684da3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_medicalStatus_css_value_1</value>
+      <variableId>82d597d2-2816-4f01-8790-85d5f5f0ed5d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>89df2726-917c-45b3-8279-845823684da3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_policyholderBankAccountNumber4</value>
+      <variableId>43efb430-3d12-4dd5-a948-11d82c81518d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>89df2726-917c-45b3-8279-845823684da3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_textfieldClaimId</value>
+      <variableId>953da344-2678-4db8-8d17-276cd1703da5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>89df2726-917c-45b3-8279-845823684da3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_totalBillAmount42</value>
+      <variableId>c034cb97-3857-43f3-93db-e2eb8c763e95</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>89df2726-917c-45b3-8279-845823684da3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>matIcon_dynamicObject_InternalLabel_1</value>
+      <variableId>c55ca53e-e004-4fe1-908c-753bdbc31f96</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>89df2726-917c-45b3-8279-845823684da3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>matIcon_dynamicObject_css_value_1</value>
+      <variableId>38ae1b7a-5576-41cd-be50-a7f70e875a0a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>89df2726-917c-45b3-8279-845823684da3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>matOption_currencyOptions_MatOption_1</value>
+      <variableId>d414e8ad-33a7-4877-810e-daffabb620c9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>89df2726-917c-45b3-8279-845823684da3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>matOption_currencyOptions_css_value_1</value>
+      <variableId>55729687-ae08-47c5-8d41-453028adffd3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>89df2726-917c-45b3-8279-845823684da3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>span_calendarDay_CdsCalendarItemNthChild_1</value>
+      <variableId>62dae307-2ef6-43cc-bdd4-8efcd824c836</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>89df2726-917c-45b3-8279-845823684da3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>span_calendarDay_css_value_1</value>
+      <variableId>1e9f9351-ef9b-4666-856c-2dbf54db2bd2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Medical Condition (Please select for maternity and illness)'</defaultValue>
+      <description>Step 19: Click on input claimEventCause (radioMedicalCondition) - (Dynamic locator variable)</description>
+      <id>84970b36-986c-4b94-b83b-d9068ed61c85</id>
+      <masked>false</masked>
+      <name>input_claimEventCause_InternalLabel_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[id=\&quot;mat-radio-6-input\&quot;]'</defaultValue>
+      <description>Step 19: Click on input claimEventCause (radioMedicalCondition) - (Dynamic locator variable)</description>
+      <id>ef4df9f1-bbd9-43e6-a604-3a3352ec7075</id>
+      <masked>false</masked>
+      <name>input_claimEventCause_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 11: Enter input value in input date - (Input data variable)</description>
+      <id>9bd31d5a-ed42-4196-be0d-3e7546a1b5ad</id>
+      <masked>false</masked>
+      <name>input_date</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 15: Enter input value in input dateStartingWork - (Input data variable)</description>
+      <id>f1e89fe8-aa85-4bb3-a72c-6c1a481dfbde</id>
+      <masked>false</masked>
+      <name>input_dateStartingWork</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hospitalization'</defaultValue>
+      <description>Step 18: Click on input medicalStatus (radioHospitalization) - (Dynamic locator variable)</description>
+      <id>968e62a3-493d-48ed-9a3e-5de15b051807</id>
+      <masked>false</masked>
+      <name>input_medicalStatus_InternalLabel_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[id=\&quot;mat-radio-1-input\&quot;]'</defaultValue>
+      <description>Step 18: Click on input medicalStatus (radioHospitalization) - (Dynamic locator variable)</description>
+      <id>82d597d2-2816-4f01-8790-85d5f5f0ed5d</id>
+      <masked>false</masked>
+      <name>input_medicalStatus_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 38: Enter input value in input policyholderBankAccountNumber4 - (Input data variable)</description>
+      <id>43efb430-3d12-4dd5-a948-11d82c81518d</id>
+      <masked>false</masked>
+      <name>input_policyholderBankAccountNumber4</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 8: Enter input value in input textfieldClaimId - (Input data variable)</description>
+      <id>953da344-2678-4db8-8d17-276cd1703da5</id>
+      <masked>false</masked>
+      <name>input_textfieldClaimId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 34: Enter input value in input totalBillAmount42 - (Input data variable)</description>
+      <id>c034cb97-3857-43f3-93db-e2eb8c763e95</id>
+      <masked>false</masked>
+      <name>input_totalBillAmount42</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hospitalization (Inpatient)'</defaultValue>
+      <description>Step 20: Click on matIcon dynamicObject (dynamicObject3) - (Dynamic locator variable)</description>
+      <id>c55ca53e-e004-4fe1-908c-753bdbc31f96</id>
+      <masked>false</masked>
+      <name>matIcon_dynamicObject_InternalLabel_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[id=\&quot;cds-checkbox-2\&quot;] > .indeterminate [id=\&quot;Layer_1\&quot;]'</defaultValue>
+      <description>Step 20: Click on matIcon dynamicObject (dynamicObject3) - (Dynamic locator variable)</description>
+      <id>38ae1b7a-5576-41cd-be50-a7f70e875a0a</id>
+      <masked>false</masked>
+      <name>matIcon_dynamicObject_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description>Step 40: Click on matOption currencyOptions (rupiah3) - (Dynamic locator variable)</description>
+      <id>d414e8ad-33a7-4877-810e-daffabb620c9</id>
+      <masked>false</masked>
+      <name>matOption_currencyOptions_MatOption_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'.mat-mdc-option-active'</defaultValue>
+      <description>Step 40: Click on matOption currencyOptions (rupiah3) - (Dynamic locator variable)</description>
+      <id>55729687-ae08-47c5-8d41-453028adffd3</id>
+      <masked>false</masked>
+      <name>matOption_currencyOptions_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'4'</defaultValue>
+      <description>Step 25: Click on span calendarDay (calendarItemDay3) - (Dynamic locator variable)</description>
+      <id>62dae307-2ef6-43cc-bdd4-8efcd824c836</id>
+      <masked>false</masked>
+      <name>span_calendarDay_CdsCalendarItemNthChild_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'section:nth-of-type(2) > cds-calendar-item:nth-of-type(4) > [class=\&quot;cds-calendar-item__content\&quot;]'</defaultValue>
+      <description>Step 25: Click on span calendarDay (calendarItemDay3) - (Dynamic locator variable)</description>
+      <id>1e9f9351-ef9b-4666-856c-2dbf54db2bd2</id>
+      <masked>false</masked>
+      <name>span_calendarDay_css_value_1</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>8541d22a-b924-43fe-95d2-78e68685a49a</id>
+      </flow>
+   </customField>
+</TestCaseEntity>

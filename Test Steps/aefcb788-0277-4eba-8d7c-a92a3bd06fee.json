@@ -1,0 +1,436 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "966e94bc-d61a-4bca-9920-18931c3d7ca6",
+      "name": "Navigate to /welcome",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "40c9f897-f9ca-4c5f-ba4d-a9d3bb811184",
+      "name": "Click on div claimInformationSections (claimInformationTitle)",
+      "action_id": "e43e8c61-6c25-46da-8610-1f7c17403082",
+      "timestamp": 1775451136591,
+      "target_name": "div_claimInformationSections",
+      "target_test_object_id": "f66fc026-c6f6-4b7b-8088-ae5b9d37ac63",
+      "sub_steps": []
+    },
+    {
+      "id": "98646aee-8631-4e1f-aee0-7163ef6aa33b",
+      "name": "Click on matSelect languageBahasaIndonesia",
+      "action_id": "661ccedf-9c9d-4332-b38f-25217d3f7551",
+      "timestamp": 1775451137867,
+      "target_name": "matSelect_languageBahasaIndonesia",
+      "target_test_object_id": "fbce9078-6d2f-40ed-8101-78c72c11e5f8",
+      "sub_steps": []
+    },
+    {
+      "id": "3572376e-5f89-4e14-9f45-1301793ab8e9",
+      "name": "Click on matOption optionEnglish",
+      "action_id": "c2bd95d8-34ae-4b3b-ad0a-d88f5042593d",
+      "timestamp": 1775451139331,
+      "target_name": "matOption_optionEnglish",
+      "target_test_object_id": "09e53bfc-2ded-49f1-bf56-773ce5186375",
+      "sub_steps": []
+    },
+    {
+      "id": "c6d04471-2bc3-4062-a24f-668637a76199",
+      "name": "Click on matIcon object",
+      "action_id": "8da2b710-77c0-4408-98a9-5eb953757de2",
+      "timestamp": 1775451141719,
+      "target_name": "matIcon_object",
+      "target_test_object_id": "1a95ab74-ce13-4c12-8eb5-69fdce379948",
+      "sub_steps": []
+    },
+    {
+      "id": "788f4658-1330-41ad-9c22-92750de063b9",
+      "name": "Click on button ok",
+      "action_id": "10c367be-c005-40b2-8b48-956a6239845f",
+      "timestamp": 1775451143194,
+      "target_name": "button_ok",
+      "target_test_object_id": "af2f2727-9b3d-4a2a-a45a-bedf4515bcb4",
+      "sub_steps": []
+    },
+    {
+      "id": "8f8c4a29-4ea7-4d9f-bc13-0a2061929027",
+      "name": "Click on button continue",
+      "action_id": "14721664-5047-4c07-9bfb-b520d9cf7780",
+      "timestamp": 1775451145191,
+      "target_name": "button_continue",
+      "target_test_object_id": "5eb12d8e-a498-466c-9bdd-1071e8ca5868",
+      "sub_steps": []
+    },
+    {
+      "id": "aaf98da7-46b7-4f8f-a993-8e16904682be",
+      "name": "Enter phone number and date in the submission form",
+      "action_id": "",
+      "timestamp": 1775451147536,
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": [
+        {
+          "id": "89909084-e8b4-487b-81e2-1f7b051f3471",
+          "name": "Click on input phoneNumber",
+          "action_id": "a976c8f6-dec8-410d-9552-be32e2c9aa77",
+          "timestamp": 1775451147536,
+          "target_name": "input_phoneNumber",
+          "target_test_object_id": "8b2db423-28cb-4ad1-947f-3d236728b7c2",
+          "sub_steps": []
+        },
+        {
+          "id": "4a58f69e-7ce7-4b3f-acbd-3dd754547a8d",
+          "name": "Enter input value in input phoneNumber3",
+          "action_id": "efb10442-0506-4b52-8bec-a34b340d2239",
+          "timestamp": 1775451149349,
+          "target_name": "input_phoneNumber3",
+          "target_test_object_id": "8c0fa830-4aa9-4f00-b573-b930af640f85",
+          "sub_steps": []
+        },
+        {
+          "id": "ff10e1c9-c106-4aa8-a9c6-6f1401b3a1a7",
+          "name": "Press key Enter on input phoneNumber4",
+          "action_id": "0b8ad32d-c1b1-4888-bb1e-752c7de7a5e6",
+          "timestamp": 1775451150838,
+          "target_name": "input_phoneNumber4",
+          "target_test_object_id": "f0f5070f-89a9-4f20-abf8-dae7a7bbdeb4",
+          "sub_steps": []
+        },
+        {
+          "id": "f8b0dfab-86da-49b8-a9c1-862a6c96cb72",
+          "name": "Click on input textboxDdmmyyyy",
+          "action_id": "63cbb64f-1518-4f64-ad08-76a69e608cc0",
+          "timestamp": 1775451152320,
+          "target_name": "input_textboxDdmmyyyy",
+          "target_test_object_id": "057c4c4c-8284-4736-aa9c-86145340dc0d",
+          "sub_steps": []
+        },
+        {
+          "id": "b759cd6f-1b95-4cea-84be-e241b04e77a2",
+          "name": "Enter input value in input textboxDdmmyyyy",
+          "action_id": "08cd7c95-4d98-45ad-b82a-e785ed71963d",
+          "timestamp": 1775451154033,
+          "target_name": "input_textboxDdmmyyyy",
+          "target_test_object_id": "057c4c4c-8284-4736-aa9c-86145340dc0d",
+          "sub_steps": []
+        },
+        {
+          "id": "752b64b6-a9b3-413b-81f8-6a4128a262e3",
+          "name": "Press key Enter on input dateDdmmyyyy2",
+          "action_id": "d9d2470d-e715-42a8-ab5b-58da81a41e16",
+          "timestamp": 1775451155503,
+          "target_name": "input_dateDdmmyyyy2",
+          "target_test_object_id": "5405b992-170c-49b5-8f88-c5cbe3bb4e32",
+          "sub_steps": []
+        }
+      ]
+    },
+    {
+      "id": "1ef0c2d1-51c8-4c2f-aaeb-e501a63c13ac",
+      "name": "Click on button continue2 -> Navigate to page '/ext/eclaims-submission-ui/id/#/claim-info'",
+      "action_id": "50c7199b-41aa-4901-a58c-7665314c4fae",
+      "timestamp": 1775451156978,
+      "target_name": "button_continue2",
+      "target_test_object_id": "4370f8bf-2d2f-47d0-baa6-75228470509e",
+      "sub_steps": []
+    },
+    {
+      "id": "42df4cfd-c260-4608-ba61-3f9c7128708f",
+      "name": "Click on input medicalStatus (radioOutpatient2)",
+      "action_id": "5744f3c4-08e0-46e4-b83a-03452262e732",
+      "timestamp": 1775451173506,
+      "target_name": "input_medicalStatus",
+      "target_test_object_id": "9ed4907b-7fd1-4682-adbd-7b9eba72a597",
+      "sub_steps": []
+    },
+    {
+      "id": "ffff7576-2eee-4464-862a-9322b55e33cb",
+      "name": "Click on input medicalStatus (radioDisability)",
+      "action_id": "1f3e6ae0-9101-43c3-bbc3-57850249bcab",
+      "timestamp": 1775451173916,
+      "target_name": "input_medicalStatus",
+      "target_test_object_id": "ccf6bc34-5045-450a-acba-0746ca188f1c",
+      "sub_steps": []
+    },
+    {
+      "id": "4c4ccc80-67f0-4777-9254-94b8d0bea113",
+      "name": "Click on input claimEventCause (radioIllness5)",
+      "action_id": "eccbbbc6-6b5f-4d3b-8304-0ebe21e92537",
+      "timestamp": 1775451175335,
+      "target_name": "input_claimEventCause",
+      "target_test_object_id": "ee4501b4-7bdb-4ab6-ba1f-ab5b86d55cf8",
+      "sub_steps": []
+    },
+    {
+      "id": "320c8437-45fd-474d-9532-c3bfadc53090",
+      "name": "Click on textarea incidentDetails",
+      "action_id": "8acce278-5a7c-426b-9960-bb87b00f1ca0",
+      "timestamp": 1775451179623,
+      "target_name": "textarea_incidentDetails",
+      "target_test_object_id": "a935edea-264d-4b4c-a70c-6f0a60392e99",
+      "sub_steps": []
+    },
+    {
+      "id": "3333b58e-a6e2-4469-ac3c-eb4fcfb9c0a3",
+      "name": "Enter input value in textarea incidentDetails",
+      "action_id": "a6c61237-0895-432d-bcae-e91f09184e56",
+      "timestamp": 1775451181410,
+      "target_name": "textarea_incidentDetails",
+      "target_test_object_id": "a935edea-264d-4b4c-a70c-6f0a60392e99",
+      "sub_steps": []
+    },
+    {
+      "id": "b153df81-5479-4790-a20b-59d18151e620",
+      "name": "Click on input radioLumpSum2",
+      "action_id": "d64bfca5-37ff-466d-af9c-8acd181dd630",
+      "timestamp": 1775451182686,
+      "target_name": "input_radioLumpSum2",
+      "target_test_object_id": "4d033bad-6c7d-4a3b-a281-b324bc8b95e9",
+      "sub_steps": []
+    },
+    {
+      "id": "7a70d8e0-44ab-4b4c-a802-2049bad00ef8",
+      "name": "Click on input radioYes15",
+      "action_id": "dbdc67c1-1015-4bde-8ae7-3a0baf9e0c76",
+      "timestamp": 1775451192084,
+      "target_name": "input_radioYes15",
+      "target_test_object_id": "ea05a600-c2ef-46da-9088-1c57a789fa73",
+      "sub_steps": []
+    },
+    {
+      "id": "64c2b8e8-faf5-45d9-8227-2c9e9952d86b",
+      "name": "Click on input radioYes16",
+      "action_id": "8a266d21-0717-4cec-a898-f43b1251feaf",
+      "timestamp": 1775451193230,
+      "target_name": "input_radioYes16",
+      "target_test_object_id": "280fb5b2-5ed3-4fee-9384-57dcac789133",
+      "sub_steps": []
+    },
+    {
+      "id": "021e0ace-d39a-45cf-8bfe-70f2d1bd13d9",
+      "name": "Click on input radioYes17",
+      "action_id": "ce7bfd1f-5b18-43c8-90d3-ed07967d0354",
+      "timestamp": 1775451194433,
+      "target_name": "input_radioYes17",
+      "target_test_object_id": "c8c4fb1a-f8e9-4281-8c2d-72db3541315c",
+      "sub_steps": []
+    },
+    {
+      "id": "840acb65-6045-47b6-87f9-79496c70c1f5",
+      "name": "Click on input radioYes15",
+      "action_id": "5dfed7c0-b825-4f89-b9a8-c506e51bf68f",
+      "timestamp": 1775451200642,
+      "target_name": "input_radioYes15",
+      "target_test_object_id": "ea05a600-c2ef-46da-9088-1c57a789fa73",
+      "sub_steps": []
+    },
+    {
+      "id": "de583fb2-5304-493e-b4ef-bb558f1da63d",
+      "name": "Click on input radioYes16",
+      "action_id": "80bee089-7baf-4d59-a007-d6f4f932c591",
+      "timestamp": 1775451201921,
+      "target_name": "input_radioYes16",
+      "target_test_object_id": "280fb5b2-5ed3-4fee-9384-57dcac789133",
+      "sub_steps": []
+    },
+    {
+      "id": "1ff721ae-dd11-4e0a-bd0a-d7c7b70a5964",
+      "name": "Enter date, daily activity, company name, phone, and address fields.",
+      "action_id": "",
+      "timestamp": 1775451203411,
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": [
+        {
+          "id": "9f55035e-0f49-4fc5-bfc5-108ab293273a",
+          "name": "Click on input dateTextField5",
+          "action_id": "a118e800-558b-4e5c-83b3-a7c1da79dd5b",
+          "timestamp": 1775451203411,
+          "target_name": "input_dateTextField5",
+          "target_test_object_id": "a4bda6a3-59d9-429f-9118-db237f06e5ba",
+          "sub_steps": []
+        },
+        {
+          "id": "340d092f-1fe9-4a28-aab2-04a5295a0b44",
+          "name": "Enter input value in input dateTextField5",
+          "action_id": "2e3324b9-0122-438c-aa28-564199eee1ba",
+          "timestamp": 1775451206460,
+          "target_name": "input_dateTextField5",
+          "target_test_object_id": "a4bda6a3-59d9-429f-9118-db237f06e5ba",
+          "sub_steps": []
+        },
+        {
+          "id": "bfeb6dc8-17e5-487a-86cd-6a9251aab198",
+          "name": "Click on input radioYes17",
+          "action_id": "0f3ad4d5-ef72-4584-8d09-077e02a16250",
+          "timestamp": 1775451207995,
+          "target_name": "input_radioYes17",
+          "target_test_object_id": "c8c4fb1a-f8e9-4281-8c2d-72db3541315c",
+          "sub_steps": []
+        },
+        {
+          "id": "12c8740e-75a4-42eb-a177-2feae04e5896",
+          "name": "Click on textarea dailyActivityInDownPosition",
+          "action_id": "12db8032-133c-42ea-9dee-10eebafa8940",
+          "timestamp": 1775451209500,
+          "target_name": "textarea_dailyActivityInDownPosition",
+          "target_test_object_id": "0ddda85c-3300-43ca-a8bc-9390f4971b65",
+          "sub_steps": []
+        },
+        {
+          "id": "a6ac8641-912f-46db-8e7d-4741a16dbe4d",
+          "name": "Enter input value in textarea dailyActivityInDownPosition",
+          "action_id": "f27644d2-1d5b-4363-9afc-417832977077",
+          "timestamp": 1775451211248,
+          "target_name": "textarea_dailyActivityInDownPosition",
+          "target_test_object_id": "0ddda85c-3300-43ca-a8bc-9390f4971b65",
+          "sub_steps": []
+        },
+        {
+          "id": "4382b4c9-35cb-429e-967e-a8823edcec30",
+          "name": "Click on input companyName3",
+          "action_id": "b36ead14-a0a2-4ae3-868a-b600681722b0",
+          "timestamp": 1775451212526,
+          "target_name": "input_companyName3",
+          "target_test_object_id": "381dc6d4-14f8-4566-9ccd-f7c35edb5885",
+          "sub_steps": []
+        },
+        {
+          "id": "0968f519-bd7a-4452-ad50-9c726b656f5d",
+          "name": "Enter input value in input companyName3",
+          "action_id": "9690173e-796d-46f6-be57-b753300dbaba",
+          "timestamp": 1775451214055,
+          "target_name": "input_companyName3",
+          "target_test_object_id": "381dc6d4-14f8-4566-9ccd-f7c35edb5885",
+          "sub_steps": []
+        },
+        {
+          "id": "fe9593a1-28a8-4b99-bf00-2d497e061ffa",
+          "name": "Click on input companyPhoneNumber4",
+          "action_id": "57c49486-8df0-4f26-80c5-ef1ba08ff927",
+          "timestamp": 1775451215727,
+          "target_name": "input_companyPhoneNumber4",
+          "target_test_object_id": "3740f83f-e982-44f3-97da-be1cae4e3d33",
+          "sub_steps": []
+        },
+        {
+          "id": "7acc881a-5643-4986-b196-d7492a709703",
+          "name": "Enter input value in input companyPhoneNumber4",
+          "action_id": "d68cc485-3729-4be4-a87d-8da82a5baf7f",
+          "timestamp": 1775451217301,
+          "target_name": "input_companyPhoneNumber4",
+          "target_test_object_id": "3740f83f-e982-44f3-97da-be1cae4e3d33",
+          "sub_steps": []
+        },
+        {
+          "id": "a5cd298b-72f7-4210-b7b2-b5e2cf05d915",
+          "name": "Click on textarea companyAddress",
+          "action_id": "9a9ac0fd-376c-43fe-b2ab-80dab7d4e7c5",
+          "timestamp": 1775451218362,
+          "target_name": "textarea_companyAddress",
+          "target_test_object_id": "4d28414f-7389-40b1-a7ad-bede805137fb",
+          "sub_steps": []
+        }
+      ]
+    },
+    {
+      "id": "ecc0ebba-38d0-449e-ae4d-7e676925d37a",
+      "name": "Click on textarea companyAddress",
+      "action_id": "353b2676-1c0b-4745-82fe-2503be113a73",
+      "timestamp": 1775451219647,
+      "target_name": "textarea_companyAddress",
+      "target_test_object_id": "4d28414f-7389-40b1-a7ad-bede805137fb",
+      "sub_steps": []
+    },
+    {
+      "id": "ccd7fe40-0acf-40f0-a57b-dc7b917d15fa",
+      "name": "Enter input value in textarea companyAddress",
+      "action_id": "8f2408dc-d27a-4190-99b9-3679619c4b8a",
+      "timestamp": 1775451221438,
+      "target_name": "textarea_companyAddress",
+      "target_test_object_id": "4d28414f-7389-40b1-a7ad-bede805137fb",
+      "sub_steps": []
+    },
+    {
+      "id": "b50af381-8693-44ec-a3e2-564b27f7db88",
+      "name": "Click on input jobDescription2",
+      "action_id": "941e3089-4ccc-4bff-b667-3e975433f7f6",
+      "timestamp": 1775451222712,
+      "target_name": "input_jobDescription2",
+      "target_test_object_id": "1516f7e7-f61e-4f57-9b09-40153943c5d8",
+      "sub_steps": []
+    },
+    {
+      "id": "abe6517e-1224-47f9-bb9c-741a34a467f4",
+      "name": "Enter job description, select currency, and input average income amount.",
+      "action_id": "",
+      "timestamp": 1775451224279,
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": [
+        {
+          "id": "801e5115-45f4-4de6-b284-7ea4da30498f",
+          "name": "Enter input value in input jobDescription2",
+          "action_id": "d7c8e3c6-bd02-45aa-8e06-67f03116378c",
+          "timestamp": 1775451224279,
+          "target_name": "input_jobDescription2",
+          "target_test_object_id": "1516f7e7-f61e-4f57-9b09-40153943c5d8",
+          "sub_steps": []
+        },
+        {
+          "id": "a8ee1d6c-8ab4-45fc-acd0-2949c2323dc4",
+          "name": "Click on matSelect selectOption3",
+          "action_id": "166dea0d-8855-4e71-baba-eb2048888ec4",
+          "timestamp": 1775451226159,
+          "target_name": "matSelect_selectOption3",
+          "target_test_object_id": "3b3b02b3-b123-40d3-9b73-20991ef997c1",
+          "sub_steps": []
+        },
+        {
+          "id": "1321bda5-79ad-437c-ac0b-f37732595ca9",
+          "name": "Click on matOption currencyOptions",
+          "action_id": "02b5d81f-949d-4c19-9691-7cf10fe682aa",
+          "timestamp": 1775451227658,
+          "target_name": "matOption_currencyOptions",
+          "target_test_object_id": "a4442821-a197-4c6e-98aa-612654590166",
+          "sub_steps": []
+        },
+        {
+          "id": "db124b29-46c8-4d52-a370-ba63d0dcc296",
+          "name": "Click on input averageIncomeAmount5",
+          "action_id": "9f1d2286-66dc-4afb-9fe8-7d61f0257ee3",
+          "timestamp": 1775451229137,
+          "target_name": "input_averageIncomeAmount5",
+          "target_test_object_id": "efd358ff-ca46-4ab5-a399-b771c87d3742",
+          "sub_steps": []
+        },
+        {
+          "id": "999f13e6-23c5-4275-bd98-a31ebfddf76d",
+          "name": "Enter input value in input averageIncomeAmount5",
+          "action_id": "0f5b7748-c25f-4f94-9fdd-081156a6291c",
+          "timestamp": 1775451230701,
+          "target_name": "input_averageIncomeAmount5",
+          "target_test_object_id": "efd358ff-ca46-4ab5-a399-b771c87d3742",
+          "sub_steps": []
+        }
+      ]
+    },
+    {
+      "id": "b8028a35-4093-43f9-89c9-ed4e485c82b5",
+      "name": "Click on input dateTextfield3 -> Navigate to page ''",
+      "action_id": "3f703646-edfa-466f-9c61-320ebf44c71b",
+      "timestamp": 1775451231968,
+      "target_name": "input_dateTextfield3",
+      "target_test_object_id": "16073353-e2c7-4ac9-ac75-3e7b292a0398",
+      "sub_steps": []
+    },
+    {
+      "id": "72d99812-1a02-42f0-859d-e88654583699",
+      "name": "Take full page screenshot as checkpoint",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    }
+  ]
+}
